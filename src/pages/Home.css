@@ -1,0 +1,1003 @@
+/* Home Page Styles */
+.home-page {
+  background: #0a0a0a;
+}
+
+/* Hero Section */
+.hero-section {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem 0;
+  background: #0a0a0a;
+}
+
+.hero-content {
+  width: 100%;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 2rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4rem;
+  align-items: start;
+  min-height: 70vh;
+}
+
+
+/* 좌측: 애니메이션 네비게이션 */
+.hero-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 2rem;
+  gap: 3rem;
+}
+
+.greeting h1 {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 4rem;
+  font-weight: 700;
+  color: #ffffff;
+  margin: 0;
+  line-height: 1.1;
+  letter-spacing: 2px;
+}
+
+.greeting .subtitle {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 1.5rem;
+  color: #00ff88;
+  margin: 1rem 0;
+  line-height: 1.2;
+  font-weight: 600;
+}
+
+.greeting .description {
+  font-family: 'Inter', sans-serif;
+  font-size: 1.1rem;
+  color: #cccccc;
+  margin: 0;
+  line-height: 1.6;
+  max-width: 400px;
+}
+
+/* 네비게이션 메뉴 */
+.navigation-menu {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.nav-item {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem 1.5rem;
+  background: rgba(26, 26, 26, 0.8);
+  border: 1px solid #333;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.nav-item::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(0, 255, 136, 0.1), transparent);
+  transition: left 0.5s ease;
+}
+
+.nav-item:hover::before {
+  left: 100%;
+}
+
+.nav-item:hover {
+  border-color: #00ff88;
+  transform: translateX(10px);
+  box-shadow: 0 5px 15px rgba(0, 255, 136, 0.2);
+}
+
+.nav-icon {
+  font-size: 1.5rem;
+  flex-shrink: 0;
+}
+
+.nav-text {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 1.1rem;
+  color: #ffffff;
+  font-weight: 500;
+  flex: 1;
+}
+
+.nav-arrow {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 1.2rem;
+  color: #00ff88;
+  transition: transform 0.3s ease;
+}
+
+.nav-item:hover .nav-arrow {
+  transform: translateX(5px);
+}
+
+/* 우측: 특수 효과 커맨드 화면 */
+.hero-right {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding-top: 1rem;
+}
+
+.terminal-window {
+  width: 100%;
+  max-width: 650px;
+  background: #1a1a1a;
+  border: 1px solid #333;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.3);
+  position: relative;
+}
+
+.terminal-window::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(45deg, transparent 30%, rgba(0, 255, 136, 0.02) 50%, transparent 70%);
+  pointer-events: none;
+  animation: shimmer 3s ease-in-out infinite;
+}
+
+@keyframes shimmer {
+  0%, 100% { transform: translateX(-100%); }
+  50% { transform: translateX(100%); }
+}
+
+.terminal-header {
+  background: #2a2a2a;
+  padding: 0.75rem 1rem;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  border-bottom: 1px solid #333;
+}
+
+.terminal-controls {
+  display: flex;
+  gap: 8px;
+}
+
+.control-btn {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.control-btn:hover {
+  transform: scale(1.1);
+}
+
+.control-btn.close {
+  background: #ff5f56;
+}
+
+.control-btn.minimize {
+  background: #ffbd2e;
+}
+
+.control-btn.maximize {
+  background: #27ca3f;
+}
+
+.terminal-title {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.8rem;
+  color: #aaa;
+  flex: 1;
+  text-align: center;
+}
+
+.terminal-body {
+  padding: 1.5rem;
+  min-height: 400px;
+  background: #0a0a0a;
+  overflow-y: auto;
+  max-height: 500px;
+  position: relative;
+}
+
+.terminal-output {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.85rem;
+  line-height: 1.6;
+  color: #ffffff;
+}
+
+.terminal-line {
+  margin-bottom: 0.2rem;
+  opacity: 1;
+  animation: fadeInUp 0.5s ease forwards;
+}
+
+.terminal-line:nth-child(1) { animation-delay: 0.1s; }
+.terminal-line:nth-child(2) { animation-delay: 0.2s; }
+.terminal-line:nth-child(3) { animation-delay: 0.3s; }
+.terminal-line:nth-child(4) { animation-delay: 0.4s; }
+.terminal-line:nth-child(5) { animation-delay: 0.5s; }
+.terminal-line:nth-child(6) { animation-delay: 0.6s; }
+.terminal-line:nth-child(7) { animation-delay: 0.7s; }
+.terminal-line:nth-child(8) { animation-delay: 0.8s; }
+.terminal-line:nth-child(9) { animation-delay: 0.9s; }
+.terminal-line:nth-child(10) { animation-delay: 1.0s; }
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.prompt {
+  color: #00ff88;
+  font-weight: 600;
+}
+
+.path {
+  color: #4ecdc4;
+  font-weight: 500;
+}
+
+.command {
+  color: #ffffff;
+  font-weight: 500;
+}
+
+.output {
+  color: #cccccc;
+}
+
+.dir {
+  color: #4ecdc4;
+  font-weight: 600;
+}
+
+.file {
+  color: #ffd93d;
+  font-weight: 600;
+}
+
+.cmd {
+  color: #00ff88;
+  font-weight: 600;
+}
+
+.cursor {
+  color: #00ff88;
+  animation: blink 1s infinite;
+}
+
+@keyframes blink {
+  0%, 50% { opacity: 1; }
+  51%, 100% { opacity: 0; }
+}
+
+/* 애니메이션 */
+.hero-section {
+  opacity: 1;
+  transform: translateY(0);
+  transition: all 0.8s ease;
+}
+
+.hero-section.animate {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* 반응형 디자인 */
+@media (max-width: 1200px) {
+  .hero-content {
+    gap: 3rem;
+  }
+}
+
+@media (max-width: 1024px) {
+  .hero-content {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    text-align: center;
+    padding: 0 1rem;
+  }
+  
+  .hero-left {
+    order: 2;
+    padding-top: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .hero-right {
+    order: 1;
+    padding-top: 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .greeting {
+    text-align: center;
+    max-width: 100%;
+  }
+  
+  .navigation-menu {
+    width: 100%;
+    max-width: 400px;
+  }
+}
+
+@media (max-width: 768px) {
+  .hero-section {
+    padding: 0 1rem;
+    min-height: 90vh;
+  }
+  
+  .hero-content {
+    gap: 2rem;
+    padding: 0 1rem;
+  }
+  
+  .greeting h1 {
+    font-size: 2.5rem;
+    letter-spacing: 1px;
+  }
+  
+  .greeting .subtitle {
+    font-size: 1.1rem;
+  }
+  
+  .greeting .description {
+    font-size: 0.95rem;
+    max-width: 100%;
+  }
+  
+  .navigation-menu {
+    gap: 0.8rem;
+  }
+  
+  .nav-item {
+    padding: 0.8rem 1rem;
+    gap: 0.8rem;
+  }
+  
+  .nav-text {
+    font-size: 1rem;
+  }
+  
+  .nav-icon {
+    font-size: 1.2rem;
+  }
+  
+  .terminal-window {
+    max-width: 100%;
+    width: 100%;
+    margin: 0 auto;
+  }
+  
+  .terminal-body {
+    padding: 0.8rem;
+    min-height: 250px;
+    max-height: 350px;
+    overflow-y: auto;
+  }
+  
+  .terminal-output {
+    font-size: 0.7rem;
+    line-height: 1.3;
+    word-break: break-word;
+  }
+  
+  .terminal-line {
+    margin-bottom: 0.1rem;
+    overflow-wrap: break-word;
+  }
+  
+  .terminal-line .path {
+    display: none; /* 모바일에서 긴 경로 숨김 */
+  }
+  
+  .terminal-line .command {
+    color: #00ff88;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero-section {
+    padding: 0 0.5rem;
+    min-height: 85vh;
+  }
+  
+  .hero-content {
+    gap: 1.5rem;
+    padding: 0 0.5rem;
+  }
+  
+  .greeting h1 {
+    font-size: 2rem;
+    letter-spacing: 0.5px;
+  }
+  
+  .greeting .subtitle {
+    font-size: 0.95rem;
+  }
+  
+  .greeting .description {
+    font-size: 0.85rem;
+    line-height: 1.5;
+  }
+  
+  .navigation-menu {
+    gap: 0.6rem;
+  }
+  
+  .nav-item {
+    padding: 0.6rem 0.8rem;
+    gap: 0.6rem;
+  }
+  
+  .nav-text {
+    font-size: 0.9rem;
+  }
+  
+  .nav-icon {
+    font-size: 1rem;
+  }
+  
+  .terminal-body {
+    padding: 0.6rem;
+    min-height: 200px;
+    max-height: 300px;
+  }
+  
+  .terminal-output {
+    font-size: 0.65rem;
+    line-height: 1.2;
+  }
+  
+  .terminal-header {
+    padding: 0.4rem 0.6rem;
+  }
+  
+  .terminal-title {
+    font-size: 0.6rem;
+  }
+  
+  /* 모바일에서 터미널 내용 간소화 */
+  .terminal-line:nth-child(n+8) {
+    display: none; /* 일부 터미널 라인 숨김 */
+  }
+}
+
+/* About Me Section */
+.about-section {
+  min-height: 100vh;
+  padding: 4rem 0;
+  background: #ffffff;
+  display: flex;
+  align-items: center;
+  position: relative;
+  z-index: 1;
+}
+
+/* 모바일에서 About Me 섹션 기본 최적화 */
+@media (max-width: 768px) {
+  .about-section {
+    min-height: auto;
+    padding: 1rem 0;
+    display: block;
+  }
+}
+
+
+.about-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
+  width: 100%;
+}
+
+.about-content {
+  display: grid;
+  grid-template-columns: 1fr 1.5fr;
+  gap: 4rem;
+  align-items: start;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* 좌측: 프로필 이미지 */
+.about-left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.profile-card {
+  width: 400px;
+  height: 600px;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+  background: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.profile-card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center 20%;
+  display: block;
+  image-rendering: high-quality;
+  image-rendering: -webkit-optimize-contrast;
+  image-rendering: crisp-edges;
+  -ms-interpolation-mode: bicubic;
+  transform: scale(0.9);
+  transform-origin: center;
+}
+
+/* 우측: 자기소개 내용 */
+.about-right {
+  padding-left: 2rem;
+  width: 100%;
+  max-width: 600px;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+}
+
+.about-header h2 {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 3rem;
+  font-weight: 700;
+  color: #333333;
+  margin: 0 0 2rem 0;
+  text-align: left;
+}
+
+.about-info h3 {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #333333;
+  margin: 0 0 0.5rem 0;
+}
+
+.about-title {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 1.5rem;
+  color: #00ff88;
+  margin: 0 0 0.5rem 0;
+  font-weight: 600;
+}
+
+.about-subtitle {
+  font-family: 'Inter', sans-serif;
+  font-size: 1.1rem;
+  color: #666666;
+  margin: 0 0 2rem 0;
+  font-style: italic;
+}
+
+.about-description {
+  margin-bottom: 2rem;
+}
+
+.about-description p {
+  font-family: 'Inter', sans-serif;
+  font-size: 1rem;
+  line-height: 1.8;
+  color: #555555;
+  margin: 0 0 1.5rem 0;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  hyphens: auto;
+}
+
+.about-description strong {
+  color: #00ff88;
+  font-weight: 600;
+}
+
+/* 스킬 태그 */
+.about-skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.8rem;
+  margin-top: 2rem;
+}
+
+.skill-tag {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: #333333;
+  background: rgba(0, 255, 136, 0.1);
+  border: 1px solid rgba(0, 255, 136, 0.3);
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  transition: all 0.3s ease;
+}
+
+    .skill-tag:hover {
+      background: rgba(0, 255, 136, 0.2);
+      border-color: #00ff88;
+      color: #222222;
+      transform: translateY(-2px);
+      box-shadow: 0 5px 15px rgba(0, 255, 136, 0.2);
+    }
+
+    /* Skills Marquee */
+    .skills-marquee {
+      margin-top: 2rem;
+      overflow: hidden;
+      background: rgba(255, 255, 255, 0.9);
+      border-radius: 12px;
+      padding: 1rem 0;
+      border: 1px solid rgba(0, 0, 0, 0.1);
+      position: relative;
+      left: -2rem;
+      width: calc(100% + 4rem);
+    }
+
+    .marquee-track {
+      display: flex;
+      gap: 2rem;
+      animation: marquee 30s linear infinite;
+      width: fit-content;
+    }
+
+    .skill-icon {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 60px;
+      height: 60px;
+      background: rgba(255, 255, 255, 0.95);
+      border-radius: 12px;
+      border: 1px solid rgba(0, 0, 0, 0.1);
+      transition: all 0.3s ease;
+      flex-shrink: 0;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .skill-icon:hover {
+      background: rgba(255, 255, 255, 1);
+      border-color: #00ff88;
+      transform: scale(1.1);
+      box-shadow: 0 5px 15px rgba(0, 255, 136, 0.3);
+    }
+
+    .skill-icon img {
+      width: 40px;
+      height: 40px;
+      object-fit: contain;
+      image-rendering: high-quality;
+      image-rendering: -webkit-optimize-contrast;
+      image-rendering: crisp-edges;
+      -ms-interpolation-mode: bicubic;
+      filter: contrast(1.2) brightness(1.1) saturate(1.3);
+      transition: all 0.3s ease;
+    }
+
+    .skill-icon:hover img {
+      filter: contrast(1.4) brightness(1.2) saturate(1.5);
+      transform: scale(1.05);
+    }
+
+    @keyframes marquee {
+      0% {
+        transform: translateX(0);
+      }
+      100% {
+        transform: translateX(-50%);
+      }
+    }
+
+/* About Me 반응형 디자인 */
+@media (max-width: 1024px) {
+  .about-content {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    text-align: center;
+    padding: 0 1rem;
+  }
+  
+  .about-left {
+    order: 1;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .about-right {
+    order: 2;
+    padding-left: 0;
+    text-align: center;
+  }
+  
+  .profile-card {
+    width: 300px;
+    height: 450px;
+  }
+  
+  .about-header h2 {
+    font-size: 2.5rem;
+  }
+  
+  .about-info h3 {
+    font-size: 2rem;
+  }
+  
+  .about-description {
+    text-align: left;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+}
+
+/* About Me 섹션 768px 이하 모바일 최적화 */
+@media (max-width: 768px) {
+  .about-section {
+    padding: 1rem 0;
+    min-height: auto;
+    display: block;
+    width: 100%;
+    overflow-x: hidden;
+  }
+  
+  .about-container {
+    padding: 0 1rem;
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+  }
+  
+  .skills-marquee {
+    left: -1rem;
+    width: calc(100% + 2rem);
+  }
+  
+  .about-content {
+    gap: 1.5rem;
+    grid-template-columns: 1fr;
+    text-align: center;
+    width: 100%;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* 1단계: 프로필 이미지와 기본 정보 */
+  .about-left {
+    order: 1;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 1rem;
+  }
+  
+  .profile-card {
+    width: 160px;
+    height: 240px;
+    margin: 0 auto 1rem auto;
+  }
+  
+  .about-header h2 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .about-info h3 {
+    font-size: 1.3rem;
+    margin-bottom: 0.3rem;
+  }
+  
+  .about-title {
+    font-size: 1rem;
+    margin-bottom: 0.3rem;
+  }
+  
+  .about-subtitle {
+    font-size: 0.9rem;
+    margin-bottom: 1rem;
+  }
+  
+  /* 2단계: 상세 설명 */
+  .about-right {
+    order: 2;
+    padding-left: 0;
+    text-align: center;
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 1rem;
+  }
+  
+  .about-description {
+    text-align: left;
+    max-width: 100%;
+    margin-bottom: 1rem;
+    padding: 0;
+  }
+  
+  .about-description p {
+    font-size: 0.85rem;
+    line-height: 1.5;
+    margin-bottom: 0.8rem;
+    word-wrap: break-word;
+  }
+  
+  /* 3단계: Skills 태그들 */
+  .about-skills {
+    margin-bottom: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.4rem;
+  }
+  
+  .skill-tag {
+    font-size: 0.7rem;
+    padding: 0.3rem 0.6rem;
+    margin: 0.1rem;
+    flex-shrink: 0;
+  }
+  
+  /* 4단계: Skills Marquee 애니메이션 */
+  .skills-marquee {
+    margin-top: 1rem;
+    padding: 0.6rem 0;
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  .skill-icon {
+    width: 40px;
+    height: 40px;
+    flex-shrink: 0;
+  }
+  
+  .skill-icon img {
+    width: 24px;
+    height: 24px;
+  }
+  
+  .marquee-track {
+    gap: 1rem;
+  }
+}
+
+/* About Me 섹션 480px 이하 초소형 모바일 최적화 */
+@media (max-width: 480px) {
+  .about-section {
+    padding: 0.8rem 0;
+    min-height: auto;
+    display: block;
+    width: 100%;
+    overflow-x: hidden;
+  }
+  
+  .about-container {
+    padding: 0 0.8rem;
+    width: 100%;
+    max-width: 100%;
+  }
+  
+  .skills-marquee {
+    left: -0.8rem;
+    width: calc(100% + 1.6rem);
+  }
+  
+  .about-content {
+    gap: 1rem;
+    width: 100%;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* 1단계: 프로필 이미지와 기본 정보 (더 작게) */
+  .about-left {
+    margin-bottom: 0.8rem;
+  }
+  
+  .profile-card {
+    width: 140px;
+    height: 210px;
+    margin: 0 auto 0.8rem auto;
+  }
+  
+  .about-header h2 {
+    font-size: 1.3rem;
+    margin-bottom: 0.3rem;
+  }
+  
+  .about-info h3 {
+    font-size: 1.1rem;
+    margin-bottom: 0.2rem;
+  }
+  
+  .about-title {
+    font-size: 0.9rem;
+    margin-bottom: 0.2rem;
+  }
+  
+  .about-subtitle {
+    font-size: 0.8rem;
+    margin-bottom: 0.8rem;
+  }
+  
+  /* 2단계: 상세 설명 (더 작게) */
+  .about-right {
+    margin-bottom: 0.8rem;
+  }
+  
+  .about-description {
+    margin-bottom: 0.8rem;
+  }
+  
+  .about-description p {
+    font-size: 0.8rem;
+    line-height: 1.4;
+    margin-bottom: 0.6rem;
+  }
+  
+  /* 3단계: Skills 태그들 (더 작게) */
+  .about-skills {
+    margin-bottom: 0.8rem;
+    gap: 0.3rem;
+  }
+  
+  .skill-tag {
+    font-size: 0.65rem;
+    padding: 0.25rem 0.5rem;
+    margin: 0.05rem;
+  }
+  
+  /* 4단계: Skills Marquee 애니메이션 (더 작게) */
+  .skills-marquee {
+    margin-top: 0.8rem;
+    padding: 0.4rem 0;
+  }
+  
+  .skill-icon {
+    width: 35px;
+    height: 35px;
+  }
+  
+  .skill-icon img {
+    width: 20px;
+    height: 20px;
+  }
+  
+  .marquee-track {
+    gap: 0.8rem;
+  }
+}

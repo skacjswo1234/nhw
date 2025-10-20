@@ -1,0 +1,272 @@
+/* Works Page Styles */
+.works {
+  min-height: 100vh;
+  padding: 8rem 2rem 4rem;
+  background: #f8f9fa;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.section-header {
+  text-align: center;
+  margin-bottom: 4rem;
+  opacity: 0;
+  transform: translateY(30px);
+  transition: all 0.8s ease;
+}
+
+.works.animate .section-header {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.section-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #333333;
+  margin: 0 0 1rem 0;
+  font-family: 'Inter', sans-serif;
+}
+
+.section-line {
+  width: 80px;
+  height: 3px;
+  background: linear-gradient(90deg, #00ff88, #00cc6a);
+  margin: 0 auto;
+  border-radius: 2px;
+}
+
+.works-content {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  opacity: 0;
+  transform: translateY(30px);
+  transition: all 0.8s ease 0.2s;
+}
+
+.works.animate .works-content {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.work-item {
+  display: flex;
+  gap: 2rem;
+  padding: 2rem;
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+  transition: all 0.3s ease;
+  border-left: 4px solid #00ff88;
+}
+
+.work-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.12);
+}
+
+.work-number {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #00ff88;
+  font-family: 'JetBrains Mono', monospace;
+  min-width: 60px;
+  text-align: center;
+  opacity: 0;
+  transform: translateX(-20px);
+  transition: all 0.8s ease;
+}
+
+.works.animate .work-number {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.work-content {
+  flex: 1;
+}
+
+.work-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.work-company {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #333333;
+  font-family: 'Inter', sans-serif;
+}
+
+.work-period {
+  font-size: 0.9rem;
+  color: #666666;
+  font-family: 'JetBrains Mono', monospace;
+  background: #f1f3f4;
+  padding: 0.3rem 0.8rem;
+  border-radius: 20px;
+}
+
+.work-title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #333333;
+  margin: 0 0 1rem 0;
+  font-family: 'Inter', sans-serif;
+}
+
+.work-description {
+  font-size: 1rem;
+  line-height: 1.7;
+  color: #555555;
+  margin: 0 0 1.5rem 0;
+  font-family: 'Inter', sans-serif;
+}
+
+.work-technologies {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.tech-tag {
+  background: linear-gradient(135deg, #00ff88, #00cc6a);
+  color: #ffffff;
+  padding: 0.3rem 0.8rem;
+  border-radius: 20px;
+  font-size: 0.8rem;
+  font-weight: 500;
+  font-family: 'JetBrains Mono', monospace;
+}
+
+.work-achievements h4 {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #333333;
+  margin: 0 0 0.8rem 0;
+  font-family: 'Inter', sans-serif;
+}
+
+.work-achievements ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.work-achievements li {
+  font-size: 0.9rem;
+  line-height: 1.6;
+  color: #555555;
+  margin-bottom: 0.5rem;
+  padding-left: 1.2rem;
+  position: relative;
+  font-family: 'Inter', sans-serif;
+}
+
+.work-achievements li::before {
+  content: '▸';
+  color: #00ff88;
+  font-weight: bold;
+  position: absolute;
+  left: 0;
+}
+
+/* Responsive Design */
+@media (max-width: 968px) {
+  .works {
+    padding: 6rem 1.5rem 3rem;
+  }
+  
+  .section-title {
+    font-size: 2rem;
+  }
+  
+  .work-item {
+    flex-direction: column;
+    gap: 1rem;
+    padding: 1.5rem;
+  }
+  
+  .work-number {
+    min-width: auto;
+    text-align: left;
+    font-size: 1.5rem;
+  }
+  
+  .work-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .works {
+    padding: 5rem 1rem 2rem;
+  }
+  
+  .section-title {
+    font-size: 1.8rem;
+  }
+  
+  .work-item {
+    padding: 1.2rem;
+  }
+  
+  .work-title {
+    font-size: 1.3rem;
+  }
+  
+  .work-description {
+    font-size: 0.95rem;
+  }
+  
+  .work-technologies {
+    gap: 0.4rem;
+  }
+  
+  .tech-tag {
+    font-size: 0.75rem;
+    padding: 0.25rem 0.6rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .works {
+    padding: 4rem 0.8rem 2rem;
+  }
+  
+  .section-title {
+    font-size: 1.5rem;
+  }
+  
+  .work-item {
+    padding: 1rem;
+    border-left: 3px solid #00ff88;
+  }
+  
+  .work-number {
+    font-size: 1.2rem;
+  }
+  
+  .work-title {
+    font-size: 1.2rem;
+  }
+  
+  .work-description {
+    font-size: 0.9rem;
+  }
+  
+  .work-achievements li {
+    font-size: 0.85rem;
+  }
+}
