@@ -32,7 +32,7 @@
 /* Grid */
 .portfolio-grid {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   gap: 2rem;
   width: 100%;
   max-width: 1400px;
@@ -55,8 +55,7 @@
 }
 
 .portfolio-card:hover .portfolio-thumb img {
-  transform: scale(1.2);
-  filter: contrast(1.15) brightness(1.1) saturate(1.15);
+  transform: translateZ(0) scale(1.05);
 }
 
 .portfolio-thumb {
@@ -66,22 +65,25 @@
   background: #f4f4f4;
   position: relative;
   min-height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .portfolio-thumb img {
   width: 100%;
-  height: 100%;
-  object-fit: cover;
+  height: auto;
+  max-height: 100%;
+  object-fit: contain;
   object-position: center;
   display: block;
-  image-rendering: high-quality;
   image-rendering: -webkit-optimize-contrast;
-  image-rendering: crisp-edges;
-  -ms-interpolation-mode: bicubic;
-  filter: contrast(1.1) brightness(1.05) saturate(1.1);
-  transition: all 0.3s ease;
-  transform: scale(1.15);
+  image-rendering: -moz-crisp-edges;
+  backface-visibility: hidden;
+  -webkit-font-smoothing: subpixel-antialiased;
+  transform: translateZ(0) scale(1);
   transform-origin: center;
+  transition: all 0.3s ease;
 }
 
 .portfolio-meta {
@@ -116,7 +118,7 @@
 
 .modal-content {
   position: relative;
-  width: min(1200px, calc(100% - 2rem));
+  width: min(1400px, calc(100% - 2rem));
   max-height: calc(100vh - 2rem);
   margin: 1rem auto;
   background: #fff;
@@ -139,40 +141,44 @@
 }
 
 .modal-body {
-  padding: 1rem;
+  padding: 2rem;
   overflow: auto;
 }
 
 .modal-gallery {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 1rem;
+  grid-template-columns: 1fr;
+  gap: 1.5rem;
+  max-width: 100%;
 }
 
 .gallery-item {
   width: 100%;
-  aspect-ratio: 16 / 10;
   overflow: hidden;
   border-radius: 8px;
   background: #f6f7f8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .gallery-item img {
   width: 100%;
-  height: 100%;
-  object-fit: cover;
+  height: auto;
+  max-width: 100%;
+  object-fit: contain;
   display: block;
-  image-rendering: high-quality;
   image-rendering: -webkit-optimize-contrast;
-  image-rendering: crisp-edges;
-  -ms-interpolation-mode: bicubic;
-  filter: contrast(1.15) brightness(1.1) saturate(1.2);
+  image-rendering: -moz-crisp-edges;
+  backface-visibility: hidden;
+  -webkit-font-smoothing: subpixel-antialiased;
+  transform: translateZ(0);
+  will-change: transform;
   transition: all 0.3s ease;
 }
 
 .gallery-item:hover img {
-  filter: contrast(1.2) brightness(1.15) saturate(1.3);
-  transform: scale(1.02);
+  transform: translateZ(0);
 }
 
 .modal-footer {
@@ -181,20 +187,30 @@
   justify-content: flex-end;
 }
 
-.notion-link {
+.site-link {
   display: inline-flex;
   align-items: center;
   gap: 0.4rem;
-  padding: 0.6rem 1rem;
+  padding: 0.6rem 1.2rem;
   border-radius: 8px;
-  background: #111;
+  background: linear-gradient(135deg, #00ff88, #00cc6a);
   color: #fff;
   text-decoration: none;
+  font-weight: 600;
+  font-size: 0.95rem;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 8px rgba(0, 255, 136, 0.3);
+}
+
+.site-link:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 255, 136, 0.4);
 }
 
 /* Responsive */
 @media (max-width: 1200px) {
   .portfolio-grid { 
+    grid-template-columns: repeat(3, 1fr);
     max-width: 1000px;
     gap: 1.5rem;
   }
@@ -207,7 +223,7 @@
     max-width: 800px;
   }
   .modal-gallery { grid-template-columns: 1fr; }
-  .modal-content { width: min(900px, calc(100% - 2rem)); }
+  .modal-content { width: min(1200px, calc(100% - 2rem)); }
 }
 
 @media (max-width: 768px) {
@@ -220,13 +236,15 @@
   .portfolio-thumb {
     min-height: 250px;
   }
-  .modal-content { width: min(600px, calc(100% - 1rem)); }
-  .modal-gallery { gap: 0.75rem; }
+  .modal-content { width: calc(100% - 1rem); }
+  .modal-body { padding: 1.5rem; }
+  .modal-gallery { gap: 1rem; }
 }
 
 @media (max-width: 480px) {
   .portfolio { padding: 3rem 1rem 2rem; }
   .portfolio-grid { max-width: 300px; }
   .modal-content { width: calc(100% - 1rem); }
-  .modal-gallery { gap: 0.5rem; }
+  .modal-body { padding: 1rem; }
+  .modal-gallery { gap: 1rem; }
 }

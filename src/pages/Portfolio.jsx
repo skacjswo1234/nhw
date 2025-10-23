@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './Portfolio.css';
 
-// Import images from proto/it and proto/budong folders
+// Import images from proto folders
 import itMain from '../proto/it/main.png';
 import itDetail1 from '../proto/it/d1.png';
 import itDetail2 from '../proto/it/d2.png';
@@ -15,7 +15,21 @@ import budongDetail2 from '../proto/budong/d2.png';
 import budongDetail3 from '../proto/budong/d3.png';
 import budongDetail4 from '../proto/budong/d4.png';
 import budongDetail5 from '../proto/budong/d5.png';
+import budongDetail6 from '../proto/budong/d6.png';
+import budongDetail7 from '../proto/budong/d7.png';
+import budongDetail8 from '../proto/budong/d8.png';
 import budongP from '../proto/budong/budong_p.png';
+
+import acrillMain from '../proto/acrill/main.png';
+import acrillDetail1 from '../proto/acrill/d1.png';
+import acrillDetail2 from '../proto/acrill/d2.png';
+import acrillDetail3 from '../proto/acrill/d3.png';
+import acrillDetail4 from '../proto/acrill/d4.png';
+import acrillDetail5 from '../proto/acrill/d5.png';
+import acrillDetail6 from '../proto/acrill/d6.png';
+import acrillDetail7 from '../proto/acrill/d7.png';
+import acrillDetail8 from '../proto/acrill/d8.png';
+import acrillP from '../proto/acrill/acrill_p.png';
 
 const sampleItems = [
   {
@@ -30,7 +44,7 @@ const sampleItems = [
       itDetail4,
       itDetail5,
     ],
-    notion: 'https://www.notion.so/'
+    url: 'https://brandiup.it.kr'
   },
   {
     id: 2,
@@ -43,8 +57,30 @@ const sampleItems = [
       budongDetail3,
       budongDetail4,
       budongDetail5,
+      budongDetail6,
+      budongDetail7,
+      budongDetail8,
+      budongP,
     ],
-    notion: 'https://www.notion.so/'
+    url: 'https://mostpumgyeok.com/'
+  },
+  {
+    id: 3,
+    title: '아크릴 쇼핑몰',
+    subtitle: '쇼핑몰 · 제품 관리 · 주문 시스템',
+    mainImage: acrillMain,
+    detailImages: [
+      acrillDetail1,
+      acrillDetail2,
+      acrillDetail3,
+      acrillDetail4,
+      acrillDetail5,
+      acrillDetail6,
+      acrillDetail7,
+      acrillDetail8,
+      acrillP,
+    ],
+    url: 'https://소로이아크릴.com/'
   }
 ];
 
@@ -90,8 +126,8 @@ const Portfolio = () => {
                 ))}
               </div>
               <div className="modal-footer">
-                <a className="notion-link" href={activeItem.notion} target="_blank" rel="noreferrer">
-                  Notion으로 보기 →
+                <a className="site-link" href={activeItem.url} target="_blank" rel="noreferrer">
+                  사이트 방문하기 →
                 </a>
               </div>
             </div>
