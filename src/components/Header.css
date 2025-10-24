@@ -183,23 +183,34 @@
 .mobile-menu {
   display: none;
   flex-direction: column;
-  background: #1a1a1a;
-  border-top: 1px solid #333;
-  padding: 1rem 2rem;
-  gap: 1rem;
+  background: rgba(0, 0, 0, 0.95);
+  backdrop-filter: blur(10px);
+  border-top: 1px solid #00ff88;
+  padding: 1.5rem 2rem;
+  gap: 1.2rem;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
 }
 
 .mobile-nav-link {
   font-family: 'JetBrains Mono', monospace;
   color: #ffffff;
   text-decoration: none;
-  font-weight: 500;
-  transition: color 0.3s ease;
-  padding: 0.5rem 0;
+  font-weight: 600;
+  font-size: 1.1rem;
+  transition: all 0.3s ease;
+  padding: 0.8rem 1rem;
+  border-radius: 6px;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  text-align: center;
 }
 
 .mobile-nav-link:hover {
   color: #00ff88;
+  background: rgba(0, 255, 136, 0.15);
+  border-color: rgba(0, 255, 136, 0.3);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 255, 136, 0.2);
 }
 
 /* Mobile Styles */
@@ -253,11 +264,12 @@
   }
   
   .mobile-menu {
-    padding: 0.8rem 1rem;
+    padding: 1rem 0.8rem;
+    gap: 1rem;
   }
   
   .mobile-nav-link {
-    font-size: 0.9rem;
-    padding: 0.4rem 0;
+    font-size: 1rem;
+    padding: 0.7rem 0.8rem;
   }
 }

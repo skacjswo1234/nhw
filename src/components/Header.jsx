@@ -11,7 +11,7 @@ const Header = () => {
       setIsScrolled(window.scrollY > 50);
       
       // 현재 활성 섹션 감지
-      const sections = ['home', 'works', 'portfolio'];
+      const sections = ['home', 'about', 'works', 'portfolio'];
       const currentSection = sections.find(section => {
         const element = document.getElementById(section);
         if (element) {
@@ -44,6 +44,7 @@ const Header = () => {
 
   const navItems = [
     { id: 'home', label: 'Home' },
+    { id: 'about', label: 'About Me' },
     { id: 'works', label: 'Works' },
     { id: 'portfolio', label: 'Portfolio' }
   ];

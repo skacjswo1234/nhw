@@ -100,19 +100,9 @@ const Home = () => {
                 <span className="nav-text">Works</span>
                 <span className="nav-arrow">→</span>
               </div>
-              <div className="nav-item" onClick={() => scrollToSection('skills')}>
-                <span className="nav-icon">⚡</span>
-                <span className="nav-text">Skills</span>
-                <span className="nav-arrow">→</span>
-              </div>
-              <div className="nav-item" onClick={() => scrollToSection('projects')}>
+              <div className="nav-item" onClick={() => scrollToSection('portfolio')}>
                 <span className="nav-icon">🚀</span>
-                <span className="nav-text">Projects</span>
-                <span className="nav-arrow">→</span>
-              </div>
-              <div className="nav-item" onClick={() => scrollToSection('contact')}>
-                <span className="nav-icon">📧</span>
-                <span className="nav-text">Contact</span>
+                <span className="nav-text">포트폴리오</span>
                 <span className="nav-arrow">→</span>
               </div>
             </div>
@@ -149,13 +139,10 @@ const Home = () => {
                     <span className="output">d-----        2024-01-15  10:30 AM                <span className="dir">about</span></span>
                   </div>
                   <div className="terminal-line">
-                    <span className="output">d-----        2024-01-15  10:30 AM                <span className="dir">skills</span></span>
+                    <span className="output">d-----        2024-01-15  10:30 AM                <span className="dir">works</span></span>
                   </div>
                   <div className="terminal-line">
-                    <span className="output">d-----        2024-01-15  10:30 AM                <span className="dir">projects</span></span>
-                  </div>
-                  <div className="terminal-line">
-                    <span className="output">d-----        2024-01-15  10:30 AM                <span className="dir">contact</span></span>
+                    <span className="output">d-----        2024-01-15  10:30 AM                <span className="dir">portfolio</span></span>
                   </div>
                   <div className="terminal-line">
                     <span className="output">-a----        2024-01-15  10:30 AM           1234 <span className="file">README.md</span></span>

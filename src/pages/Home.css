@@ -794,19 +794,19 @@
     flex-direction: column;
   }
   
-  /* 1단계: 프로필 이미지와 기본 정보 */
+  /* 1단계: 프로필 이미지 (위에 배치) */
   .about-left {
     order: 1;
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
   }
   
   .profile-card {
-    width: 160px;
-    height: 240px;
+    width: 200px;
+    height: 300px;
     margin: 0 auto 1rem auto;
   }
   
@@ -830,7 +830,7 @@
     margin-bottom: 1rem;
   }
   
-  /* 2단계: 상세 설명 */
+  /* 2단계: 텍스트 내용 (아래에 배치) */
   .about-right {
     order: 2;
     padding-left: 0;
@@ -923,15 +923,15 @@
     flex-direction: column;
   }
   
-  /* 1단계: 프로필 이미지와 기본 정보 (더 작게) */
+  /* 1단계: 프로필 이미지 (위에 배치, 더 작게) */
   .about-left {
-    margin-bottom: 0.8rem;
+    margin-bottom: 1.5rem;
   }
   
   .profile-card {
-    width: 140px;
-    height: 210px;
-    margin: 0 auto 0.8rem auto;
+    width: 160px;
+    height: 240px;
+    margin: 0 auto 1rem auto;
   }
   
   .about-header h2 {
@@ -954,9 +954,9 @@
     margin-bottom: 0.8rem;
   }
   
-  /* 2단계: 상세 설명 (더 작게) */
+  /* 2단계: 텍스트 내용 (아래에 배치, 더 작게) */
   .about-right {
-    margin-bottom: 0.8rem;
+    margin-bottom: 1rem;
   }
   
   .about-description {
