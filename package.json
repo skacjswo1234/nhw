@@ -11,7 +11,7 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
-  "homepage": "https://namhyunwoo.github.io/nam-portfolio",
+  "homepage": "https://skacjswo1234.github.io/nhw",
   "dependencies": {
     "gh-pages": "^6.3.0",
     "react": "^19.1.1",
@@ -28,6 +28,7 @@
     "eslint-plugin-react-hooks": "^5.2.0",
     "eslint-plugin-react-refresh": "^0.4.22",
     "globals": "^16.4.0",
+    "puppeteer": "^24.26.1",
     "vite": "^7.1.7"
   }
 }

@@ -1,6 +1,6 @@
 import React, { useEffect, useRef, useState } from 'react';
 import './Home.css';
-import aboutImg from '../assets/aboutImg2.png';
+import aboutImg from '../assets/nhw.jpg';
 
 const Home = () => {
   const heroRef = useRef(null);
@@ -231,19 +231,20 @@ const Home = () => {
 
               <div className="about-description">
                 <p>
-                  Java / Spring Boot / React 등으로 <strong>B2C·B2B 및 자사 내부 시스템을 다년간 운영</strong>했고, 
-                  REST API 설계 · 구현부터 유지보수까지 경험했습니다.
+                  <strong>전국 30개 이상 딜러사가 사용하는 정비/부품 관리 시스템</strong>을 개발 및 운영하며,
+                  Java/Spring 기반의 복잡한 비즈니스 로직 구현과 SAP 연동을 통한 실시간 회계 전표 처리를 담당했습니다.
                 </p>
                 
                 <p>
-                  Python(FastAPI) · Node.js를 활용해 사용자 중심 앱을 구축하고, 
-                  AWS · Redis · Docker 기반 <strong>CI/CD 파이프라인 설계 및 배포 자동화까지 담당</strong>했습니다.
+                  <strong>Docker 기반 배포 환경 구축 및 AWS 클라우드 인프라 관리</strong> 경험을 바탕으로,
+                  벤츠트럭과 만트럭 정비시스템의 안정적인 운영을 책임지고 있으며,
+                  SAP 연동 오류를 월평균 5건 이하로 유지하는 안정성을 달성했습니다.
                 </p>
                 
                 <p>
-                  기획 단계부터 데이터 모델링, API 설계, 운영 및 모니터링까지 
-                  <strong>엔드투엔드로 프로젝트를 총괄</strong>하며, 
-                  디자이너 없이도 와이어프레임 · 반응형 · 접근성을 고려해 UI/UX를 빠르게 설계·구현합니다.
+                  LG전자 Smart TV 앱 검수 시스템과 LG U+ 통신업계 정산 시스템 개발을 통해
+                  <strong>1원의 오차도 허용되지 않는 금융 로직</strong>과 대규모 데이터 처리 경험을 쌓았으며,
+                  기획부터 배포까지 전 과정을 주도적으로 수행합니다.
                 </p>
               </div>
 

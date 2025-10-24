@@ -31,6 +31,34 @@ import acrillDetail7 from '../proto/acrill/d7.png';
 import acrillDetail8 from '../proto/acrill/d8.png';
 import acrillP from '../proto/acrill/acrill_p.png';
 
+import haraMain from '../proto/hara/main.png';
+import haraDetail1 from '../proto/hara/d1.png';
+import haraDetail2 from '../proto/hara/d2.png';
+import haraDetail3 from '../proto/hara/d3.png';
+import haraDetail4 from '../proto/hara/d4.png';
+import haraDetail5 from '../proto/hara/d5.png';
+import haraDetail6 from '../proto/hara/d6.png';
+import haraDetail7 from '../proto/hara/d7.png';
+import haraP from '../proto/hara/hara_p.png';
+
+import cancerMain from '../proto/cancer/main.png';
+import cancerDetail1 from '../proto/cancer/d1.png';
+import cancerDetail2 from '../proto/cancer/d2.png';
+import cancerDetail3 from '../proto/cancer/d3.png';
+import cancerDetail4 from '../proto/cancer/d4.png';
+import cancerDetail5 from '../proto/cancer/d5.png';
+import cancerP from '../proto/cancer/cancer_p.png';
+
+import mideaMain from '../proto/midea/main.png';
+import mideaDetail1 from '../proto/midea/d1.png';
+import mideaDetail2 from '../proto/midea/d2.png';
+import mideaDetail3 from '../proto/midea/d3.png';
+import mideaDetail4 from '../proto/midea/d4.png';
+import mideaDetail5 from '../proto/midea/d5.png';
+import mideaDetail6 from '../proto/midea/d6.png';
+import mideaDetail7 from '../proto/midea/d7.png';
+import mideaP from '../proto/midea/sin_p.png';
+
 const sampleItems = [
   {
     id: 1,
@@ -44,7 +72,8 @@ const sampleItems = [
       itDetail4,
       itDetail5,
     ],
-    url: 'https://brandiup.it.kr'
+    url: 'https://brandiup.it.kr',
+    notionUrl: 'https://www.notion.so/WebCraft-Pro-1c691b9aaa654c8d9722013f8fe7b8ca?source=copy_link'
   },
   {
     id: 2,
@@ -62,7 +91,8 @@ const sampleItems = [
       budongDetail8,
       budongP,
     ],
-    url: 'https://mostpumgyeok.com/'
+    url: 'https://mostpumgyeok.com/',
+    notionUrl: 'https://www.notion.so/ada42bbf76064322894101257390851a?source=copy_link'
   },
   {
     id: 3,
@@ -80,7 +110,60 @@ const sampleItems = [
       acrillDetail8,
       acrillP,
     ],
-    url: 'https://소로이아크릴.com/'
+    url: 'https://소로이아크릴.com/',
+    notionUrl: 'https://www.notion.so/0859e9122e1c447a9b14797c65e3c343?source=copy_link'
+  },
+  {
+    id: 4,
+    title: '헌옷하라',
+    subtitle: '의류 재활용 · 기부 플랫폼 · 환경 보호',
+    mainImage: haraMain,
+    detailImages: [
+      haraDetail1,
+      haraDetail2,
+      haraDetail3,
+      haraDetail4,
+      haraDetail5,
+      haraDetail6,
+      haraDetail7,
+      haraP,
+    ],
+    url: 'https://hara38.com',
+    notionUrl: 'https://www.notion.so/bb4b580712164905b55acf0402d49ab2?source=copy_link'
+  },
+  {
+    id: 5,
+    title: '보험여기어때',
+    subtitle: '보험 비교 · 맞춤 추천 · 간편 상담',
+    mainImage: cancerMain,
+    detailImages: [
+      cancerDetail1,
+      cancerDetail2,
+      cancerDetail3,
+      cancerDetail4,
+      cancerDetail5,
+      cancerP,
+    ],
+    url: 'https://보험여기어때.com',
+    notionUrl: 'https://www.notion.so/2798a0e5c30f4ca0a379774103adb717?source=copy_link'
+  },
+  {
+    id: 6,
+    title: '신세계미디어',
+    subtitle: '미디어 · 콘텐츠 · 디지털 마케팅',
+    mainImage: mideaMain,
+    detailImages: [
+      mideaDetail1,
+      mideaDetail2,
+      mideaDetail3,
+      mideaDetail4,
+      mideaDetail5,
+      mideaDetail6,
+      mideaDetail7,
+      mideaP,
+    ],
+    url: 'https://shinsegaemedia1.com',
+    notionUrl: 'https://www.notion.so/cb9f3f62aeb14838b7abf28da167acf6?source=copy_link'
   }
 ];
 
@@ -91,11 +174,12 @@ const Portfolio = () => {
 
   return (
     <section className="portfolio" id="portfolio">
+     
       <div className="container">
-        <div className="section-header">
-          <h2 className="section-title">Portfolio</h2>
+       
+          <h2 className="section-title">개인프로젝트 활동</h2>
           <div className="section-line"></div>
-        </div>
+      
 
         <div className="portfolio-grid">
           {sampleItems.map((item) => (
@@ -126,9 +210,16 @@ const Portfolio = () => {
                 ))}
               </div>
               <div className="modal-footer">
-                <a className="site-link" href={activeItem.url} target="_blank" rel="noreferrer">
-                  사이트 방문하기 →
-                </a>
+                <div className="modal-links">
+                  <a className="site-link" href={activeItem.url} target="_blank" rel="noreferrer">
+                    사이트 방문하기 →
+                  </a>
+                  {activeItem.notionUrl && (
+                    <a className="notion-link" href={activeItem.notionUrl} target="_blank" rel="noreferrer">
+                      📝 노션에서 보기
+                    </a>
+                  )}
+                </div>
               </div>
             </div>
           </div>
