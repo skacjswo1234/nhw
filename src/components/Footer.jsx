@@ -7,23 +7,13 @@ const Footer = () => {
   const socialLinks = [
     {
       name: 'GitHub',
-      url: 'https://github.com/namhyunwoo',
+      url: 'https://github.com/skacjswo1234',
       icon: '🐙'
     },
     {
-      name: 'LinkedIn',
-      url: 'https://linkedin.com/in/namhyunwoo',
-      icon: '💼'
-    },
-    {
       name: 'Email',
-      url: 'mailto:namhyunwoo@example.com',
+      url: 'mailto:9078807@naver.com',
       icon: '📧'
-    },
-    {
-      name: 'Twitter',
-      url: 'https://twitter.com/namhyunwoo',
-      icon: '🐦'
     }
   ];
 
