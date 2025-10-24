@@ -1,29 +1,15 @@
 import React, { useState, useEffect } from 'react';
+import { Link, useLocation } from 'react-router-dom';
 import './Header.css';
 
 const Header = () => {
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-  const [activeSection, setActiveSection] = useState('home');
+  const location = useLocation();
 
   useEffect(() => {
     const handleScroll = () => {
       setIsScrolled(window.scrollY > 50);
-      
-      // 현재 활성 섹션 감지
-      const sections = ['home', 'about', 'works', 'portfolio', 'skills', 'projects', 'contact'];
-      const currentSection = sections.find(section => {
-        const element = document.getElementById(section);
-        if (element) {
-          const rect = element.getBoundingClientRect();
-          return rect.top <= 100 && rect.bottom >= 100;
-        }
-        return false;
-      });
-      
-      if (currentSection) {
-        setActiveSection(currentSection);
-      }
     };
 
     window.addEventListener('scroll', handleScroll);
@@ -34,31 +20,13 @@ const Header = () => {
     setIsMenuOpen(!isMenuOpen);
   };
 
-  const scrollToSection = (sectionId) => {
-    const element = document.getElementById(sectionId);
-    if (element) {
-      element.scrollIntoView({ behavior: 'smooth' });
-      setIsMenuOpen(false);
-    } else {
-      // 해당 섹션이 없으면 홈으로 스크롤
-      if (sectionId === 'home') {
-        window.scrollTo({ top: 0, behavior: 'smooth' });
-      } else {
-        // 다른 섹션들은 현재 홈 섹션으로 스크롤 (추후 섹션 추가 시 수정)
-        window.scrollTo({ top: 0, behavior: 'smooth' });
-      }
-      setIsMenuOpen(false);
-    }
-  };
-
   const navItems = [
-    { id: 'home', label: 'Home' },
-    { id: 'about', label: 'About' },
-    { id: 'works', label: 'Works' },
-    { id: 'portfolio', label: 'Portfolio' },
-    { id: 'skills', label: 'Skills' },
-    { id: 'projects', label: 'Projects' },
-    { id: 'contact', label: 'Contact' }
+    { path: '/', label: 'Home' },
+    { path: '/about', label: 'About' },
+    { path: '/skills', label: 'Skills' },
+    { path: '/works', label: 'Works' },
+    { path: '/portfolio', label: 'Portfolio' },
+    { path: '/contact', label: 'Contact' }
   ];
 
   return (
@@ -77,25 +45,22 @@ const Header = () => {
         {/* 네비게이션 */}
         <nav className="nav">
           <div className="nav-left">
-            <button 
-              className="logo" 
-              onClick={() => scrollToSection('home')}
-            >
+            <Link to="/" className="logo">
               <span className="logo-text">NAM HYUNWOO</span>
               <span className="logo-cursor">_</span>
-            </button>
+            </Link>
           </div>
           
           <div className="nav-right">
             <div className="nav-menu">
               {navItems.map((item) => (
-                <button
-                  key={item.id}
-                  onClick={() => scrollToSection(item.id)}
-                  className={`nav-link ${activeSection === item.id ? 'active' : ''}`}
+                <Link
+                  key={item.path}
+                  to={item.path}
+                  className={`nav-link ${location.pathname === item.path ? 'active' : ''}`}
                 >
                   {item.label}
-                </button>
+                </Link>
               ))}
             </div>
             
@@ -112,13 +77,14 @@ const Header = () => {
         {isMenuOpen && (
           <div className="mobile-menu">
             {navItems.map((item) => (
-              <button
-                key={item.id}
-                onClick={() => scrollToSection(item.id)}
+              <Link
+                key={item.path}
+                to={item.path}
                 className="mobile-nav-link"
+                onClick={() => setIsMenuOpen(false)}
               >
                 {item.label}
-              </button>
+              </Link>
             ))}
           </div>
         )}
