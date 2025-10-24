@@ -1,33 +1,13 @@
-import React, { useEffect, useRef, useState } from 'react';
+import React, { useState } from 'react';
 import './Contact.css';
 
 const Contact = () => {
-  const sectionRef = useRef(null);
   const [formData, setFormData] = useState({
     name: '',
     email: '',
     subject: '',
     message: ''
   });
-
-  useEffect(() => {
-    const observer = new IntersectionObserver(
-      (entries) => {
-        entries.forEach((entry) => {
-          if (entry.isIntersecting) {
-            entry.target.classList.add('animate');
-          }
-        });
-      },
-      { threshold: 0.1 }
-    );
-
-    if (sectionRef.current) {
-      observer.observe(sectionRef.current);
-    }
-
-    return () => observer.disconnect();
-  }, []);
 
   const handleInputChange = (e) => {
     const { name, value } = e.target;
@@ -78,7 +58,7 @@ const Contact = () => {
   ];
 
   return (
-    <section className="contact" id="contact" ref={sectionRef}>
+    <section className="contact" id="contact">
       <div className="container">
         <div className="section-header">
           <h2 className="section-title">Contact Me</h2>

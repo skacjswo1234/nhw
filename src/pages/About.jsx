@@ -1,30 +1,9 @@
-import React, { useEffect, useRef } from 'react';
+import React from 'react';
 import './About.css';
 
 const About = () => {
-  const sectionRef = useRef(null);
-
-  useEffect(() => {
-    const observer = new IntersectionObserver(
-      (entries) => {
-        entries.forEach((entry) => {
-          if (entry.isIntersecting) {
-            entry.target.classList.add('animate');
-          }
-        });
-      },
-      { threshold: 0.1 }
-    );
-
-    if (sectionRef.current) {
-      observer.observe(sectionRef.current);
-    }
-
-    return () => observer.disconnect();
-  }, []);
-
   return (
-    <section className="about" id="about" ref={sectionRef}>
+    <section className="about" id="about">
       <div className="container">
         <div className="section-header">
           <h2 className="section-title">About Me</h2>

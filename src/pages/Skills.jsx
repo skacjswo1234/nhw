@@ -1,27 +1,7 @@
-import React, { useEffect, useRef } from 'react';
+import React from 'react';
 import './Skills.css';
 
 const Skills = () => {
-  const sectionRef = useRef(null);
-
-  useEffect(() => {
-    const observer = new IntersectionObserver(
-      (entries) => {
-        entries.forEach((entry) => {
-          if (entry.isIntersecting) {
-            entry.target.classList.add('animate');
-          }
-        });
-      },
-      { threshold: 0.1 }
-    );
-
-    if (sectionRef.current) {
-      observer.observe(sectionRef.current);
-    }
-
-    return () => observer.disconnect();
-  }, []);
 
   const skillCategories = [
     {
@@ -60,7 +40,7 @@ const Skills = () => {
   ];
 
   return (
-    <section className="skills" id="skills" ref={sectionRef}>
+    <section className="skills" id="skills">
       <div className="container">
         <div className="section-header">
           <h2 className="section-title">Skills & Technologies</h2>

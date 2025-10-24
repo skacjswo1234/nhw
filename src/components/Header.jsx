@@ -1,15 +1,29 @@
 import React, { useState, useEffect } from 'react';
-import { Link, useLocation } from 'react-router-dom';
 import './Header.css';
 
 const Header = () => {
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-  const location = useLocation();
+  const [activeSection, setActiveSection] = useState('home');
 
   useEffect(() => {
     const handleScroll = () => {
       setIsScrolled(window.scrollY > 50);
+      
+      // 현재 활성 섹션 감지
+      const sections = ['home', 'works', 'portfolio'];
+      const currentSection = sections.find(section => {
+        const element = document.getElementById(section);
+        if (element) {
+          const rect = element.getBoundingClientRect();
+          return rect.top <= 100 && rect.bottom >= 100;
+        }
+        return false;
+      });
+      
+      if (currentSection) {
+        setActiveSection(currentSection);
+      }
     };
 
     window.addEventListener('scroll', handleScroll);
@@ -20,13 +34,18 @@ const Header = () => {
     setIsMenuOpen(!isMenuOpen);
   };
 
+  const scrollToSection = (sectionId) => {
+    const element = document.getElementById(sectionId);
+    if (element) {
+      element.scrollIntoView({ behavior: 'smooth' });
+      setIsMenuOpen(false);
+    }
+  };
+
   const navItems = [
-    { path: '/', label: 'Home' },
-    { path: '/about', label: 'About' },
-    { path: '/skills', label: 'Skills' },
-    { path: '/works', label: 'Works' },
-    { path: '/portfolio', label: 'Portfolio' },
-    { path: '/contact', label: 'Contact' }
+    { id: 'home', label: 'Home' },
+    { id: 'works', label: 'Works' },
+    { id: 'portfolio', label: 'Portfolio' }
   ];
 
   return (
@@ -45,22 +64,25 @@ const Header = () => {
         {/* 네비게이션 */}
         <nav className="nav">
           <div className="nav-left">
-            <Link to="/" className="logo">
+            <button 
+              className="logo" 
+              onClick={() => scrollToSection('home')}
+            >
               <span className="logo-text">NAM HYUNWOO</span>
               <span className="logo-cursor">_</span>
-            </Link>
+            </button>
           </div>
           
           <div className="nav-right">
             <div className="nav-menu">
               {navItems.map((item) => (
-                <Link
-                  key={item.path}
-                  to={item.path}
-                  className={`nav-link ${location.pathname === item.path ? 'active' : ''}`}
+                <button
+                  key={item.id}
+                  onClick={() => scrollToSection(item.id)}
+                  className={`nav-link ${activeSection === item.id ? 'active' : ''}`}
                 >
                   {item.label}
-                </Link>
+                </button>
               ))}
             </div>
             
@@ -77,14 +99,13 @@ const Header = () => {
         {isMenuOpen && (
           <div className="mobile-menu">
             {navItems.map((item) => (
-              <Link
-                key={item.path}
-                to={item.path}
+              <button
+                key={item.id}
+                onClick={() => scrollToSection(item.id)}
                 className="mobile-nav-link"
-                onClick={() => setIsMenuOpen(false)}
               >
                 {item.label}
-              </Link>
+              </button>
             ))}
           </div>
         )}
