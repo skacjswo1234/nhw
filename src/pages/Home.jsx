@@ -12,7 +12,7 @@ const Home = () => {
     { cmd: 'pwd', output: '/home/namhyunwoo/portfolio' },
     { cmd: 'ls -la', output: 'about/  skills/  projects/  contact/  README.md' },
     { cmd: 'cat README.md', output: 'Welcome to my portfolio terminal!' },
-    { cmd: 'npm start', output: 'Starting development server...' }
+    { cmd: 'npm start', output: 'Starting development server...' } 
   ];
 
   useEffect(() => {
