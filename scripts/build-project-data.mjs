@@ -158,7 +158,6 @@ const CATALOG = [
   ['ai-trading', 'system', 'AI 자동 트레이딩 봇'],
   ['ai-trading-ver2', 'system', 'AI 자동 트레이딩 봇 v2'],
   ['ai-sprot-bot', 'system', 'AI 스포츠 분석기'],
-  ['dongdaemun', 'system', '엽떡 수집기'],
 ];
 
 // meta description 이 없거나 부족한 프로젝트 보완
@@ -189,7 +188,6 @@ const OVERRIDES = {
   'well-class-report': { tagline: '학생 성적표 관리 · 성적 그래프', description: '영어학원 학생별 성적을 입력하고 Chart.js 그래프로 성적 변화를 보여주는 성적표 관리 웹 애플리케이션입니다.' },
   'ujiny-income-statement': { tagline: '매출 · 광고비 손익 자동화', description: '아임웹 매출과 광고 매체 비용을 모아 구글 시트에 일별 손익을 자동 기록하고, 4시간마다 Cron으로 갱신하는 손익계산서 자동화 시스템입니다.' },
   'ujiny-keyword-analysis': { tagline: '경쟁사 네이버 검색량 모니터링', description: '네이버 데이터랩 검색 트렌드를 매일 자동 수집해 경쟁사 키워드 검색량 추이를 보여주는 관리자 대시보드입니다.' },
-  dongdaemun: { tagline: '프랜차이즈 양도양수 매물 수집기', description: '웹사이트 · 블로그 · 카페 · 커뮤니티 등 여러 출처에서 프랜차이즈 양도양수 매물을 수집하고, 지역 · 브랜드별로 정규화해 보여주는 수집 시스템입니다.' },
   'bun-mgt': { tagline: '분양 현장 문의 DB 관리', description: '여러 분양 현장 랜딩페이지에서 들어온 문의를 한곳에 모아 관리하는 관리자 시스템입니다.' },
   'bun-clean': { tagline: '청소 파트너 문의 DB 관리', description: '청소 파트너 랜딩페이지들의 문의를 통합 관리하는 관리자 시스템. 관리자 화면과 여러 랜딩페이지를 하나의 프로젝트로 운영합니다.' },
   iqlab: { tagline: '무료 신청 · 문의 접수 시스템', description: 'IQLAB 서비스 소개와 무료 신청, 문의 폼 접수를 처리하는 시스템 페이지입니다.' },
@@ -198,7 +196,6 @@ const OVERRIDES = {
 const TECH_OVERRIDES = {
   'ujiny-income-statement': ['Cloudflare Workers', 'Hono', 'D1', 'Cron', 'Google Sheets API'],
   'ujiny-keyword-analysis': ['Cloudflare Workers', 'D1', 'Cron', 'Naver DataLab API'],
-  dongdaemun: ['Cloudflare Workers', 'D1', 'Python 크롤러'],
   'well-class-report': ['Cloudflare Pages Functions', 'D1', 'Chart.js'],
   'bun-mgt': ['Cloudflare Pages Functions', 'D1'],
   'bun-clean': ['Cloudflare Pages Functions', 'D1'],

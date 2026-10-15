@@ -3874,29 +3874,6 @@
         "projects/ai-sprot-bot/d3.webp"
       ],
       "mobile": "projects/ai-sprot-bot/mobile.webp"
-    },
-    {
-      "id": "dongdaemun",
-      "category": "system",
-      "title": "엽떡 수집기",
-      "tagline": "프랜차이즈 양도양수 매물 수집기",
-      "description": "웹사이트 · 블로그 · 카페 · 커뮤니티 등 여러 출처에서 프랜차이즈 양도양수 매물을 수집하고, 지역 · 브랜드별로 정규화해 보여주는 수집 시스템입니다.",
-      "sections": [],
-      "features": [
-        "로그인 · 권한 기반 관리자 화면 구성",
-        "데이터 입력 · 조회 · 관리 기능"
-      ],
-      "tech": [
-        "HTML/CSS",
-        "JavaScript",
-        "Cloudflare Workers",
-        "D1",
-        "Python 크롤러"
-      ],
-      "images": [
-        "projects/dongdaemun/main.webp"
-      ],
-      "mobile": "projects/dongdaemun/mobile.webp"
     }
   ]
 }

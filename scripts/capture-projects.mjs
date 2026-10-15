@@ -14,7 +14,7 @@ const PROJECT_TIMEOUT = 120000;
 const EXCLUDE = new Set([
   'nhw', 'aa', 'easy-loan - 복사본', 'trafic-test',
   'bambam', 'heaundae-24', 'forest-teraphy', 'w-host', 'w-host-ver2', 'ceri-ticket', 'audi-ktv', 'mekander', 'robin', 'ruda',
-  'nam-brother', 'happy-haseyeon', 'ujiny-daily-note', 'hillstate-parkfore',
+  'nam-brother', 'happy-haseyeon', 'ujiny-daily-note', 'hillstate-parkfore', 'dongdaemun',
   // src/proto 에 이미 정리된 이미지가 있는 프로젝트
   'hara', 'cancer', 'sin_midea', 'brandiup', 'jemin-mobile-intro',
 ]);

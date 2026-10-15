@@ -774,21 +774,6 @@
     ],
     "mobile": "mobile.webp"
   },
-  "dongdaemun": {
-    "name": "dongdaemun",
-    "title": "로그인 | 의령남씨 엽떡 수집기",
-    "description": "",
-    "headings": [
-      "관리자 로그인"
-    ],
-    "tech": [],
-    "hasForm": true,
-    "pageHeight": 900,
-    "images": [
-      "main.webp"
-    ],
-    "mobile": "mobile.webp"
-  },
   "demo": {
     "name": "demo",
     "title": "대모 (대출의 모든것) - 전략적 자산 관리 파트너",
