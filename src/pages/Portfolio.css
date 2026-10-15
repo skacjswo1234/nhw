@@ -138,27 +138,25 @@
 
 .pf-tabs {
   display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   gap: 0.5rem;
-  overflow-x: auto;
-  padding-bottom: 0.25rem;
-  scrollbar-width: none;
 }
-
-.pf-tabs::-webkit-scrollbar { display: none; }
 
 .pf-tabs button {
   flex: 0 0 auto;
   display: inline-flex;
   align-items: center;
   gap: 0.4rem;
-  padding: 0.6rem 1rem;
+  padding: 0.5rem 0.9rem;
   border-radius: 999px;
   border: 1px solid rgba(255, 255, 255, 0.1);
   background: rgba(255, 255, 255, 0.03);
   color: #c9d1db;
   font: inherit;
-  font-size: 0.9rem;
+  font-size: 0.85rem;
   font-weight: 600;
+  white-space: nowrap;
   cursor: pointer;
   transition: all 0.25s ease;
 }
@@ -190,7 +188,9 @@
   display: flex;
   align-items: center;
   gap: 0.6rem;
+  width: 100%;
   max-width: 420px;
+  margin: 0 auto;
   padding: 0.55rem 1rem;
   border-radius: 12px;
   background: rgba(255, 255, 255, 0.05);
@@ -1089,7 +1089,10 @@
 
 @media (max-width: 768px) {
   .pf { padding: 5rem 1rem 4rem; }
-  .pf-toolbar { margin: 0 -1rem 1.5rem; padding: 0.75rem 1rem; }
+  .pf-toolbar { position: static; margin: 0 0 1.5rem; padding: 0; background: none; border: 0; backdrop-filter: none; }
+  .pf-tabs { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 0.4rem; }
+  .pf-tabs button { justify-content: space-between; padding: 0.55rem 0.75rem; font-size: 0.8rem; border-radius: 12px; white-space: normal; text-align: left; }
+  .pf-tabs button:first-child { grid-column: 1 / -1; justify-content: center; }
   .pf-search { max-width: none; }
   .pf-stats { display: grid; grid-template-columns: repeat(3, 1fr); gap: 0.5rem; width: 100%; }
   .pf-stats div { min-width: 0; padding: 0.8rem 0.5rem; }
