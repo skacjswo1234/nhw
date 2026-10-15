@@ -1,0 +1,3137 @@
+{
+  "gonggan-reset": {
+    "name": "gonggan-reset",
+    "title": "공간리셋 | 쓰레기집·화재·고독사 특수청소",
+    "description": "공간리셋 — 쓰레기집·화재·고독사 특수청소. 비밀 보장, 당일 출동, 무료 견적, 지원금 안내. 야간·새벽 작업 가능.",
+    "headings": [
+      "무료견적 채팅",
+      "아무도 모르게하루 만에특수청소 해결",
+      "쓰레기집 · 화재 · 고독사민감한 현장일수록 더 조용히",
+      "모르면 못 받는지원금이 있어요",
+      "어떤 상황이신가요?",
+      "말보다 사진이증명합니다",
+      "실제 견적 감각으로비용을 미리 확인하세요",
+      "조용하고 신속하게5단계로 완료됩니다",
+      "공간리셋 vs 일반 업체직접 비교해보세요",
+      "무허가 업체를 이용하면고객도 위험합니다"
+    ],
+    "tech": [],
+    "hasForm": false,
+    "pageHeight": 8945,
+    "images": [
+      "main.webp",
+      "d1.webp",
+      "d2.webp",
+      "d3.webp",
+      "d4.webp"
+    ],
+    "mobile": "mobile.webp"
+  },
+  "law-seoho": {
+    "name": "law-seoho",
+    "title": "법무법인 서호",
+    "description": "",
+    "headings": [
+      "이혼, \"잘 끝내야 다시 시작할 수 있습니다.\"",
+      "실시간 상담문의"
+    ],
+    "tech": [],
+    "hasForm": false,
+    "pageHeight": 5582,
+    "images": [
+      "main.webp",
+      "d1.webp",
+      "d2.webp",
+      "d3.webp"
+    ],
+    "mobile": "mobile.webp"
+  },
+  "ace-green": {
+    "name": "ace-green",
+    "title": "에이스그린 | 업소용 음식물처리기 7일 무료체험 AceGREEN",
+    "description": "에이스그린(AceGREEN) 업소용 음식물처리기. 설치비·철거비 조건 없는 7일 무료체험. 20L 소형부터 250L 대형까지, 미생물 분해 방식. 상담 010-9515-0237",
+    "headings": [
+      "에이스그린 업소용 음식물처리기",
+      "“고객님, 꼭 저희 제품이아니어도 괜찮습니다.”",
+      "7일 무료체험, 이렇게 진행됩니다",
+      "기능적인 장점, 한눈에",
+      "매장 환경에 맞는 두 가지 타입",
+      "제품 구성 · 가격",
+      "설치 직후부터 매달 460,000원씩",
+      "이것만은 알고하자",
+      "생생한 현장 목소리",
+      "사장님들의 생생한 영상 후기"
+    ],
+    "tech": [],
+    "hasForm": true,
+    "pageHeight": 16477,
+    "images": [
+      "main.webp",
+      "d1.webp",
+      "d2.webp",
+      "d3.webp",
+      "d4.webp"
+    ],
+    "mobile": "mobile.webp"
+  },
+  "ads-video-program": {
+    "name": "ads-video-program",
+    "skipped": "빌드 결과물/정적 index.html 없음"
+  },
+  "ai-trading": {
+    "name": "ai-trading",
+    "title": "AI 자동 현물·선물 트레이딩 봇",
+    "description": "AI 하이브리드 시그널로 암호화폐 현물·선물 타이밍을 지원합니다. 백테스트·실시간 시세·수익 인증 후기. 14일 무료체험 가능.",
+    "headings": [
+      "하이브리드시그널 차트지금 시작해보세요.",
+      "왜 항상 늦게 들어가고, 일찍 나올까요?",
+      "이제 AI에게 맡기세요",
+      "실제 수익 시그널 결과",
+      "시그널 전략 백테스트 결과",
+      "실시간 거래내역",
+      "실시간 거래구분 확인",
+      "실시간 지수, 원자재, 외환, 코인 시세 확인",
+      "핵심 기능",
+      "실시간 시장 차트"
+    ],
+    "tech": [
+      "Chart.js"
+    ],
+    "hasForm": false,
+    "pageHeight": 13346,
+    "images": [
+      "main.webp",
+      "d1.webp",
+      "d2.webp",
+      "d3.webp",
+      "d4.webp"
+    ],
+    "mobile": "mobile.webp"
+  },
+  "ai-sprot-bot": {
+    "name": "ai-sprot-bot",
+    "title": "AI 스포츠 분석기 | 텔레그램 실시간 스포츠 분석픽",
+    "description": "AI가 배당·라인업·전술을 분석해 텔레그램으로 실시간 스포츠 픽을 전달합니다. 경기 전, 이미 승부는 끝났다.",
+    "headings": [
+      "경기 시작 전,이미 승부는 끝났다",
+      "감으로 베팅하는 시대는이미 끝났습니다",
+      "당신은 질문만 하세요.분석은 AI가 합니다",
+      "스마트한 베팅의 지름길이미 분석은 끝났다",
+      "텔레그램 하나면모든 분석이 끝",
+      "3초면 끝",
+      "지금 문의하면평생 무료 사용",
+      "자주 묻는 질문",
+      "다음 경기, AI와 함께 준비하세요"
+    ],
+    "tech": [
+      "알림 연동"
+    ],
+    "hasForm": false,
+    "pageHeight": 5187,
+    "images": [
+      "main.webp",
+      "d1.webp",
+      "d2.webp",
+      "d3.webp"
+    ],
+    "mobile": "mobile.webp"
+  },
+  "audi-ktv": {
+    "name": "audi-ktv",
+    "title": "다낭 가라오케 | 아우디 가라오케 공식 예약 · 다낭 아우디 가라오케",
+    "description": "다낭 가라오케 공식 예약처 — 아우디 가라오케(다낭 아우디 가라오케). 21개 프리미엄 룸, 미러룸 초이스, 픽업 서비스. 다낭 가라오케 가격·예약은 카카오톡·텔레그램·잘로로 문의하세요.",
+    "headings": [
+      "다낭 가라오케,아우디 가라오케 공식 예약",
+      "브랜드 소개",
+      "프리미엄 하이라이트",
+      "이런 분들께 추천합니다",
+      "다낭 가라오케 후기",
+      "예약문의 / 애로사항 / 기타문의 문의"
+    ],
+    "tech": [
+      "알림 연동"
+    ],
+    "hasForm": false,
+    "pageHeight": 9672,
+    "images": [
+      "main.webp",
+      "d1.webp",
+      "d2.webp",
+      "d3.webp",
+      "d4.webp"
+    ],
+    "mobile": "mobile.webp"
+  },
+  "ai-trading-ver2": {
+    "name": "ai-trading-ver2",
+    "title": "AI 자동 현물·선물 트레이딩 봇",
+    "description": "AI 하이브리드 시그널로 암호화폐 현물·선물 타이밍을 지원합니다. 백테스트·실시간 시세·수익 인증 후기. 14일 무료체험 가능.",
+    "headings": [
+      "하이브리드시그널 차트지금 시작해보세요.",
+      "왜 항상 늦게 들어가고, 일찍 나올까요?",
+      "이제 AI에게 맡기세요",
+      "실제 수익 시그널 결과",
+      "시그널 전략 백테스트 결과",
+      "실시간 거래내역",
+      "실시간 거래구분 확인",
+      "실시간 지수, 원자재, 외환, 코인 시세 확인",
+      "핵심 기능",
+      "실시간 시장 차트"
+    ],
+    "tech": [
+      "Chart.js"
+    ],
+    "hasForm": false,
+    "pageHeight": 13346,
+    "images": [
+      "main.webp",
+      "d1.webp",
+      "d2.webp",
+      "d3.webp",
+      "d4.webp"
+    ],
+    "mobile": "mobile.webp"
+  },
+  "auto-rium-2": {
+    "name": "auto-rium-2",
+    "title": "오토리움 | 무보증 장기렌트 1분 견적",
+    "description": "오토리움 — 무보증 장기렌트, 전국 20개 금융사 비교, 월 최저 견적 1분 확인. 상담비 무료 · 신용 영향 없음.",
+    "headings": [
+      "무보증 장기렌트",
+      "어떤 차량을찾고 계신가요?",
+      "어떤 형태로 진행을원하시나요?",
+      "연락처를입력해주세요.",
+      "잠시만요!견적 정보를 확인중입니다.",
+      "접수가 완료되었습니다!",
+      "감사합니다!"
+    ],
+    "tech": [],
+    "hasForm": true,
+    "pageHeight": 900,
+    "images": [
+      "main.webp"
+    ],
+    "mobile": "mobile.webp"
+  },
+  "beauty-path": {
+    "name": "beauty-path",
+    "skipped": "빌드 결과물/정적 index.html 없음"
+  },
+  "beauty-path-app": {
+    "name": "beauty-path-app",
+    "skipped": "빌드 결과물/정적 index.html 없음"
+  },
+  "biz-log": {
+    "name": "biz-log",
+    "title": "biz-log | 기업진단센터",
+    "description": "5가지 질문으로 우리 회사의 성장 트랙과 경영 리스크 실행 방향을 진단합니다.",
+    "headings": [
+      "우리 회사는 지금안전하게매출을 늘릴 준비가되어 있습니까?"
+    ],
+    "tech": [],
+    "hasForm": false,
+    "pageHeight": 1049,
+    "images": [
+      "main.webp"
+    ],
+    "mobile": "mobile.webp"
+  },
+  "beauty-darum": {
+    "name": "beauty-darum",
+    "title": "병원코디네이터 교육·취업 연계 | 뷰티다룸 마스터 과정",
+    "description": "병원코디네이터 교육부터 취업 연계까지 한 번에. 강남권 병원 네트워크 기반 실무 중심 커리큘럼으로 상담·CS·업셀링 역량을 집중 강화합니다.",
+    "headings": [
+      "단 5회로 완성하는전문가 마스터 커리큘럼",
+      "수강 상세 정보",
+      "마스터 과정 수강 신청",
+      "병원코디네이터 정보 페이지"
+    ],
+    "tech": [
+      "Tailwind CSS"
+    ],
+    "hasForm": true,
+    "pageHeight": 6604,
+    "images": [
+      "main.webp",
+      "d1.webp",
+      "d2.webp",
+      "d3.webp",
+      "d4.webp"
+    ],
+    "mobile": "mobile.webp"
+  },
+  "auto-rium": {
+    "name": "auto-rium",
+    "title": "오토리움(AUTORIUM) | 신차 장기렌트·리스 전국 최저가 견적",
+    "description": "오토리움(AUTORIUM) — KB·현대·신한·BNK 등 30여 개 제휴 캐피탈·렌터카 연계 신차 장기렌트·오토리스(리스) 전국 최저가 견적 비교. 온라인 견적 접수, 전화 상담, 시크릿 특가·즉시출고 안내. 인천 서구 오토리움.",
+    "headings": [
+      "신차 장기렌트와 리스, 전국 최저가 견적서 신차 장기렌트/리스 전국 최저가 견적서",
+      "전국 최저가 견적 온라인접수",
+      "실시간 모바일 견적 확인",
+      "실시간 계약후기",
+      "왜 장기렌트/리스인가요?",
+      "한정 프로모션 특가",
+      "자주 묻는 질문",
+      "실시간 상담문의",
+      "문의하기",
+      "시크릿 특가 문의"
+    ],
+    "tech": [
+      "Tailwind CSS"
+    ],
+    "hasForm": true,
+    "pageHeight": 6736,
+    "images": [
+      "main.webp",
+      "d1.webp",
+      "d2.webp",
+      "d3.webp",
+      "d4.webp"
+    ],
+    "mobile": "mobile.webp"
+  },
+  "bodangdang": {
+    "name": "bodangdang",
+    "title": "보당당 - 3년 지나면 소멸하는 내 숨은 보험금 찾기",
+    "description": "3년이 지나면 소멸하는 숨은 보험금·실비 환급금, 보당당에서 30초 만에 무료로 조회하세요.",
+    "headings": [
+      "보당당 3년 지나면 소멸될 수 있는 내 숨은 보험금 실비 환급금 확인",
+      "왜 지금 확인해야 할까요?",
+      "이런 돈까지 전부 찾아드립니다",
+      "딱 3단계면 끝납니다",
+      "내 환급금 무료 조회",
+      "보당당 소개"
+    ],
+    "tech": [
+      "Meta Pixel"
+    ],
+    "hasForm": true,
+    "pageHeight": 5968,
+    "images": [
+      "main.webp",
+      "d1.webp",
+      "d2.webp",
+      "d3.webp"
+    ],
+    "mobile": "mobile.webp"
+  },
+  "brother-steam-naver-img": {
+    "name": "brother-steam-naver-img",
+    "skipped": "빌드 결과물/정적 index.html 없음"
+  },
+  "brother-water-wax": {
+    "name": "brother-water-wax",
+    "skipped": "빌드 결과물/정적 index.html 없음"
+  },
+  "bisang-solution": {
+    "name": "bisang-solution",
+    "title": "비상금솔루션",
+    "description": "",
+    "headings": [
+      "취급상품권",
+      "실시간 후기",
+      "이용약관",
+      "개인정보처리방침",
+      "면책 고지"
+    ],
+    "tech": [],
+    "hasForm": false,
+    "pageHeight": 6886,
+    "images": [
+      "main.webp",
+      "d1.webp",
+      "d2.webp",
+      "d3.webp",
+      "d4.webp"
+    ],
+    "mobile": "mobile.webp"
+  },
+  "brothers-team-crm": {
+    "name": "brothers-team-crm",
+    "title": "브라더 CRM — 로그인",
+    "description": "",
+    "headings": [],
+    "tech": [],
+    "hasForm": true,
+    "pageHeight": 900,
+    "images": [
+      "main.webp"
+    ],
+    "mobile": "mobile.webp"
+  },
+  "brothers-team": {
+    "name": "brothers-team",
+    "title": "브라더스팀 | 소자본 스팀세차 창업 대표 브랜드",
+    "description": "브라더스팀, 소자본 스팀세차 창업 대표 브랜드. 패키지 세차 전문 시스템, 가맹 문의 1668-2855",
+    "headings": [
+      "브라더스팀소자본 스팀세차 창업 대표 브랜드",
+      "브라더스팀 소자본 창업 비용 안내",
+      "브라더스팀은패키지 스팀세차 전문 브랜드입니다",
+      "브라더스팀이 생각하는세차의 기준",
+      "브라더스팀 창업 경쟁력",
+      "브라더스팀 창업 절차",
+      "브라더스팀 매장 인테리어",
+      "시공 사진",
+      "브라더스팀 가맹 매장",
+      "브라더스팀 패키지 세차 프로그램"
+    ],
+    "tech": [],
+    "hasForm": true,
+    "pageHeight": 900,
+    "images": [
+      "main.webp"
+    ],
+    "mobile": "mobile.webp"
+  },
+  "bodangdang-sosang": {
+    "name": "bodangdang-sosang",
+    "title": "보당당 | 소상공인 숨은 환급금 무료 진단 - 30초 환급 조회",
+    "description": "보당당(BODANGDANG) 공식 사이트. 소상공인·자영업자 숨은 환급금 30초 무료 진단! 과오납 세금, 4대보험 환급, 노란우산·두루누리·고용 지원금 미수령분을 보당당에서 조회하세요.",
+    "headings": [
+      "사장님, 작년에 못 받은 우리 가게 숨은 환급금. 오늘 안 찾으면 국고로 환수됩니다.",
+      "옆 가게 사장님은 0만 원 환급받았는데, 왜 나만 모를까요?",
+      "보당당",
+      "보당당 · 소상공인 환급금 FAQ"
+    ],
+    "tech": [],
+    "hasForm": false,
+    "pageHeight": 6277,
+    "images": [
+      "main.webp",
+      "d1.webp",
+      "d2.webp",
+      "d3.webp"
+    ],
+    "mobile": "mobile.webp"
+  },
+  "bun-clean": {
+    "name": "bun-clean",
+    "title": "싹싹청소 | 파트너DB관리시스템",
+    "description": "싹싹청소 파트너DB관리시스템",
+    "headings": [
+      "파트너DB관리시스템",
+      "문의리스트"
+    ],
+    "tech": [],
+    "hasForm": true,
+    "pageHeight": 900,
+    "images": [
+      "main.webp"
+    ],
+    "mobile": "mobile.webp"
+  },
+  "brother-steam": {
+    "name": "brother-steam",
+    "title": "브라더스팀 | 스팀세차 공식 가맹",
+    "description": "브라더스팀 패키지 스팀세차 공식 가맹. 아산 본점·온양·여수. 상담 1668-2855",
+    "headings": [
+      "브라더스팀 초보도 월500만원 가능",
+      "브라더스팀전국 가맹네트워크온양점 · 여수점운영중",
+      "브라더스팀투명한창업 비용",
+      "브라더스팀고객들이 먼저소문내는세차장",
+      "고객이 가장 많이선택하는 패키지 세차",
+      "체계적인 단계별객단가 확장 구조",
+      "단순 세차를넘어선관리 중심프리미엄 세차",
+      "가맹점이 살아야본사가 삽니다",
+      "브라더스팀 창업4가지 경쟁력",
+      "브라더스팀 vs 일반 세차"
+    ],
+    "tech": [],
+    "hasForm": true,
+    "pageHeight": 12429,
+    "images": [
+      "main.webp",
+      "d1.webp",
+      "d2.webp",
+      "d3.webp",
+      "d4.webp"
+    ],
+    "mobile": "mobile.webp"
+  },
+  "bun-leader": {
+    "name": "bun-leader",
+    "title": "분양리더 - 사이트 허브",
+    "description": "분양리더 - 분양 마케팅 전문 서비스. 밴드홍보대행, 밴드프로그램판매, 메타광고, 구글GDN광고, 당근광고, 호갱노노광고, LMS문자광고, 블로그광고",
+    "headings": [],
+    "tech": [],
+    "hasForm": true,
+    "pageHeight": 4672,
+    "images": [
+      "main.webp",
+      "d1.webp",
+      "d2.webp"
+    ],
+    "mobile": "mobile.webp"
+  },
+  "bsol-art": {
+    "name": "bsol-art",
+    "title": "BSOLart | ReModern Minhwa & Korean Cultural Lifestyle",
+    "description": "BSOLart reinterprets 600-year-old Korean minhwa tradition through eco-friendly design — stationery, fashion, and lifestyle products for the global market.",
+    "headings": [
+      "Messages from 600 Years Ago,Delivered to Us Today",
+      "A cultural companyreimagining minhwa",
+      "ReModern Minhwa products",
+      "Tradition woven into modern life",
+      "Trusted by cultural institutions",
+      "50 design copyrights& patented patterns",
+      "Built for global retail partners",
+      "Wholesale & CollaborationInquiries"
+    ],
+    "tech": [],
+    "hasForm": false,
+    "pageHeight": 11025,
+    "images": [
+      "main.webp",
+      "d1.webp",
+      "d2.webp",
+      "d3.webp",
+      "d4.webp"
+    ],
+    "mobile": "mobile.webp"
+  },
+  "car-new-consulting": {
+    "name": "car-new-consulting",
+    "title": "차새로 | 차새로컨설팅 - 장기렌트·리스 신차 컨설팅 · 위약금·승계 상담",
+    "description": "차새로(차새로컨설팅)는 23개 금융사 협약 장기렌트·리스 컨설팅입니다. 신차 견적 비교·차량 추천부터 기존차량 위약금 해결·리스 승계·차량 정리까지, 평균 납입금 500만 원 절감. 상담 무료, 신용조회 없음.",
+    "headings": [
+      "먼저 상담받은 고객님들의실제 컨설팅 후기",
+      "차새로에 자주 묻는 질문",
+      "관심 있는 차량을알려주세요",
+      "희망하시는이용 방식은요?",
+      "조금만 더알려주세요",
+      "어떤 도움이필요하신가요?",
+      "지금 타고 계신차량을 알려주세요",
+      "결과를 받아보실연락처를 남겨주세요",
+      "잠시만요!신청 내용을 확인하고 있어요",
+      "신청이 완료되었습니다!"
+    ],
+    "tech": [],
+    "hasForm": true,
+    "pageHeight": 3328,
+    "images": [
+      "main.webp",
+      "d1.webp",
+      "d2.webp"
+    ],
+    "mobile": "mobile.webp"
+  },
+  "bun-mgt": {
+    "name": "bun-mgt",
+    "title": "분양리더 | 현장DB관리시스템",
+    "description": "분양리더 현장DB관리시스템",
+    "headings": [
+      "현장DB관리시스템",
+      "문의리스트"
+    ],
+    "tech": [],
+    "hasForm": true,
+    "pageHeight": 5069,
+    "images": [
+      "main.webp",
+      "d1.webp",
+      "d2.webp"
+    ],
+    "mobile": "mobile.webp"
+  },
+  "carplatform": {
+    "name": "carplatform",
+    "title": "카플랫폼 - 최저가 견적 신청 | AI 실시간 비교견적",
+    "description": "카플랫폼에서 AI 프로그램을 통한 실시간 비교견적으로 최저가를 확인하세요. 장기렌트, 리스, 할부 최저가 견적을 무료로 받아보세요.",
+    "headings": [
+      "신청이 완료되었습니다!"
+    ],
+    "tech": [
+      "Swiper",
+      "GA/GTM",
+      "Naver Analytics"
+    ],
+    "hasForm": true,
+    "pageHeight": 1032,
+    "images": [
+      "main.webp"
+    ],
+    "mobile": "mobile.webp"
+  },
+  "carplatform-2": {
+    "name": "carplatform-2",
+    "title": "카플랫폼 | 국내 최저가 차량 견적 비교",
+    "description": "카플랫폼에서 장기렌트·리스·할부 차량을 간편하게 비교하고 국내 최저가 견적을 받아보세요.",
+    "headings": [],
+    "tech": [
+      "GA/GTM",
+      "Naver Analytics"
+    ],
+    "hasForm": false,
+    "pageHeight": 900,
+    "images": [
+      "main.webp"
+    ],
+    "mobile": "mobile.webp"
+  },
+  "carplatform-crm": {
+    "name": "carplatform-crm",
+    "title": "고객관리 | Carplatform CRM",
+    "description": "",
+    "headings": [
+      "고객관리",
+      "검색조건",
+      "오늘 알림리스트",
+      "고객 List",
+      "고객 상세",
+      "알림"
+    ],
+    "tech": [],
+    "hasForm": true,
+    "pageHeight": 900,
+    "images": [
+      "main.webp"
+    ],
+    "mobile": "mobile.webp"
+  },
+  "chaesy": {
+    "name": "chaesy",
+    "title": "CHAESY | Contemporary Korean Jewelry",
+    "description": "Sterling silver jewelry shaped by Korean heritage.",
+    "headings": [
+      "Jewelry shaped byKorean heritage",
+      "Forms and storiesfrom Korea, for today",
+      "Four motifs. One design language.",
+      "From heritage to original form",
+      "Materials chosenwith intention",
+      "Built for curated retail",
+      "Wholesale & CollaborationInquiries"
+    ],
+    "tech": [],
+    "hasForm": false,
+    "pageHeight": 7971,
+    "images": [
+      "main.webp",
+      "d1.webp",
+      "d2.webp",
+      "d3.webp",
+      "d4.webp"
+    ],
+    "mobile": "mobile.webp"
+  },
+  "cheongcho": {
+    "name": "cheongcho",
+    "title": "Cheongcho | Global Beauty Business Platform",
+    "description": "Cheongcho — end-to-end K-Beauty platform for OEM/ODM, China market entry, distribution, and global partnerships.",
+    "headings": [
+      "Korea technology.China infrastructure.Global growth.",
+      "One partner.Limitless possibilities.",
+      "Devices & skincarebuilt for professionals",
+      "Multiple waysto grow together",
+      "From idea toglobal market",
+      "Already there.Ready to scale.",
+      "Built for visionarybeauty partners",
+      "Wholesale & CollaborationInquiries"
+    ],
+    "tech": [],
+    "hasForm": false,
+    "pageHeight": 10743,
+    "images": [
+      "main.webp",
+      "d1.webp",
+      "d2.webp",
+      "d3.webp",
+      "d4.webp"
+    ],
+    "mobile": "mobile.webp"
+  },
+  "clean-father": {
+    "name": "clean-father",
+    "title": "청소하는아빠 | 프리미엄 홈 케어 | 입주청소, 줄눈시공, 새집증후군 케어",
+    "description": "전화 한 통이면 끝. 오늘 요청 → 내일 깨끗한 집. 청소하는아빠의 프리미엄 청소 서비스. 입주청소, 줄눈시공, 새집증후군 케어 전문. 친환경 세제 사용, 하청 없이 직영팀장 직접 방문, 100% 책임 청소.",
+    "headings": [
+      "청소하는아빠 - 프리미엄 홈 케어 서비스 | 입주청소, 줄눈시공, 새집증후군 케어 전문",
+      "전후 비교 사진",
+      "고객 후기 미리보기",
+      "맞춤 상담 요청하기",
+      "지금, 아빠가 청소하러 갑니다."
+    ],
+    "tech": [
+      "Meta Pixel"
+    ],
+    "hasForm": true,
+    "pageHeight": 9156,
+    "images": [
+      "main.webp",
+      "d1.webp",
+      "d2.webp",
+      "d3.webp",
+      "d4.webp"
+    ],
+    "mobile": "mobile.webp"
+  },
+  "clean-guard": {
+    "name": "clean-guard",
+    "title": "클린방범대 공식 | 입주청소 · 서울·경기·수도권 프리미엄 · 전국",
+    "description": "클린방범대 공식 — 네이버·구글에서 클린방범대로 검색. 수도권·전국 입주청소, 무료견적·14일 AS.",
+    "headings": [
+      "클린방범대 · 서울 경기 인천 수도권 전국 입주청소 깨끗한 공간, 상쾌한 시작.",
+      "클린방범대의 새집증후군",
+      "왜 클린방범대인가요?",
+      "입주 전 필수,청소 하나로 공간의 가치가 달라집니다.",
+      "클린방범대 고객 감사 이벤트",
+      "전문 청소 솔루션",
+      "클린방범대 청소 프로세스",
+      "생생한 이용 후기",
+      "자주 묻는 질문",
+      "프리미엄 입주청소, 무료 맞춤 견적으로 새 집의 첫날을 준비하세요"
+    ],
+    "tech": [
+      "Tailwind CSS"
+    ],
+    "hasForm": true,
+    "pageHeight": 7191,
+    "images": [
+      "main.webp",
+      "d1.webp",
+      "d2.webp",
+      "d3.webp",
+      "d4.webp"
+    ],
+    "mobile": "mobile.webp"
+  },
+  "clean-otalk": {
+    "name": "clean-otalk",
+    "title": "Clean O talk",
+    "description": "",
+    "headings": [
+      "실시간 작업현장",
+      "지금 바로 문의하세요",
+      "온라인 문의",
+      "문의가 접수되었습니다!",
+      "오류가 발생했습니다"
+    ],
+    "tech": [],
+    "hasForm": true,
+    "pageHeight": 10030,
+    "images": [
+      "main.webp",
+      "d1.webp",
+      "d2.webp",
+      "d3.webp",
+      "d4.webp"
+    ],
+    "mobile": "mobile.webp"
+  },
+  "dalseo-xi": {
+    "name": "dalseo-xi",
+    "title": "달서자이 제니크 | 대구 달서구 본리동 신규 아파트 분양 · 35평 계약금 100만원",
+    "description": "달서자이 제니크 공식 분양 안내. 대구 달서구 본리동 죽전생활권 최고 49층 신규 아파트, 35평(84㎡) 계약금 단 100만원, 발코니 확장·시스템에어컨 4대 무상, 선착순 동호지정. 분양문의 1899-3770",
+    "headings": [
+      "35평 계약금단 100만원!",
+      "84㎡ 인테리어 둘러보기",
+      "대구의 중심, 본리네거리",
+      "PREMIUM LOCATION",
+      "막힘없이 펼쳐지는전면 조망",
+      "PREMIUM 6",
+      "기본 제공 품목",
+      "사전 방문 예약",
+      "84㎡ 인테리어",
+      "PREMIUMLOCATION"
+    ],
+    "tech": [
+      "Naver Analytics"
+    ],
+    "hasForm": true,
+    "pageHeight": 11009,
+    "images": [
+      "main.webp",
+      "d1.webp",
+      "d2.webp",
+      "d3.webp",
+      "d4.webp"
+    ],
+    "mobile": "mobile.webp"
+  },
+  "dassonda": {
+    "name": "dassonda",
+    "title": "다쏜다 · 인터넷 · TV · 정수기 공식 제휴 상담",
+    "description": "",
+    "headings": [
+      "전 통신사 다 비교해서제일 싼 곳으로!",
+      "정수기 6개 브랜드이 중에 제일 싼 걸로!",
+      "다른 데선 절대 못 주는혜택 네 가지",
+      "1분 만에 최대 혜택다 받아가세요!",
+      "실시간 상담 신청 현황",
+      "다쏜다로 혜택 받은 실제 후기",
+      "신청부터 혜택까지 단 4단계",
+      "자주 묻는 질문",
+      "지금 안 받으면 손해!최대 혜택 다쏜다가 다 쏩니다"
+    ],
+    "tech": [],
+    "hasForm": true,
+    "pageHeight": 9034,
+    "images": [
+      "main.webp",
+      "d1.webp",
+      "d2.webp",
+      "d3.webp",
+      "d4.webp"
+    ],
+    "mobile": "mobile.webp"
+  },
+  "dongdaemun": {
+    "name": "dongdaemun",
+    "title": "로그인 | 의령남씨 엽떡 수집기",
+    "description": "",
+    "headings": [
+      "관리자 로그인"
+    ],
+    "tech": [],
+    "hasForm": true,
+    "pageHeight": 900,
+    "images": [
+      "main.webp"
+    ],
+    "mobile": "mobile.webp"
+  },
+  "demo": {
+    "name": "demo",
+    "title": "대모 (대출의 모든것) - 전략적 자산 관리 파트너",
+    "description": "",
+    "headings": [
+      "메뉴",
+      "내 자산의 숨겨진 가치,대모가 찾아드립니다",
+      "가치 극대화를 위한 금융 솔루션",
+      "왜 대모와 함께해야 할까요?",
+      "진행 절차",
+      "자주 묻는 질문",
+      "상담 문의",
+      "지금 전문가와 상담하세요",
+      "상담 신청이 완료되었습니다"
+    ],
+    "tech": [
+      "Tailwind CSS"
+    ],
+    "hasForm": true,
+    "pageHeight": 5909,
+    "images": [
+      "main.webp",
+      "d1.webp",
+      "d2.webp",
+      "d3.webp"
+    ],
+    "mobile": "mobile.webp"
+  },
+  "eeum": {
+    "name": "eeum",
+    "title": "이음페이 | 임대료·관리비·급여, 카드로 바로 이체",
+    "description": "이음페이 — 사업 고정비를 카드로 결제하고 수취인 계좌로 빠르게 송금하는 핀테크 서비스",
+    "headings": [
+      "사장님의 든든한자금 파트너",
+      "심사 수 분송금은 수 초",
+      "임대료부터 급여까지카드 한 장으로",
+      "당일 송금으로끊김 없이",
+      "쓰는 만큼 쌓이고관리도 한곳에서",
+      "결제 가능 항목",
+      "간편하고 빠른결제 흐름",
+      "보안",
+      "하루 종일, 필요할 때 AI 챗봇·카카오톡·콜백으로 빈틈없이 응대합니다",
+      "이음페이 이용 후기"
+    ],
+    "tech": [],
+    "hasForm": false,
+    "pageHeight": 1251,
+    "images": [
+      "main.webp"
+    ],
+    "mobile": "mobile.webp"
+  },
+  "demo-omliv": {
+    "name": "demo-omliv",
+    "title": "내 남성지수는 상위 몇프로일까?",
+    "description": "떨어진 남성지수 지금바로 확인하세요",
+    "headings": [
+      "내 나이대 남성기능 혹시 뒤쳐지진 않을까..",
+      "출생연도를입력해주세요",
+      "아침에 자연스러운반응이 있으신가요?",
+      "관계 중 유지력은어떤 편인가요?",
+      "일주일에 자위를몇 번 하시나요?",
+      "최근 한 달,성관계를 몇 번 하셨나요?",
+      "이성에 대한 욕구를얼마나 느끼세요?",
+      "퇴근하면몸 상태가 어떤가요?",
+      "하루 몇 시간이나주무세요?",
+      "최근 운동을얼마나 하고 있나요?"
+    ],
+    "tech": [
+      "GSAP",
+      "GA/GTM"
+    ],
+    "hasForm": true,
+    "pageHeight": 14822,
+    "images": [
+      "main.webp",
+      "d1.webp",
+      "d2.webp",
+      "d3.webp",
+      "d4.webp"
+    ],
+    "mobile": "mobile.webp"
+  },
+  "enterchem-erp": {
+    "name": "enterchem-erp",
+    "skipped": "빌드 결과물/정적 index.html 없음"
+  },
+  "easy-loan": {
+    "name": "easy-loan",
+    "title": "이지론 | 신용대출 · 자동차담보대출",
+    "description": "이지론 신용대출·자동차담보대출 안내. 간편 신청과 빠른 상담으로 고객 맞춤 대출 서비스를 제공합니다.",
+    "headings": [],
+    "tech": [],
+    "hasForm": true,
+    "pageHeight": 1530,
+    "images": [
+      "main.webp",
+      "d1.webp",
+      "d2.webp"
+    ],
+    "mobile": "mobile.webp"
+  },
+  "drive-sample": {
+    "name": "drive-sample",
+    "title": "드라이브원 운전연수 — 초보부터 베테랑까지",
+    "description": "",
+    "headings": [
+      "오늘부터 운전이 쉬워진다.",
+      "필요한 만큼만,합리적으로.",
+      "눈가리고 약속 안 합니다.지킬 수 있는 것만 말해요.",
+      "긴장에서 자신감까지,네 번의 수업.",
+      "우리 동네로강사가 직접 갑니다.",
+      "진짜 사람들의진짜 변화.",
+      "궁금한 건다 물어보세요.",
+      "지금 신청하면이번 주 안에 시작할 수 있어요."
+    ],
+    "tech": [],
+    "hasForm": false,
+    "pageHeight": 6431,
+    "images": [
+      "main.webp",
+      "d1.webp",
+      "d2.webp",
+      "d3.webp"
+    ],
+    "mobile": "mobile.webp"
+  },
+  "enter-chem": {
+    "name": "enter-chem",
+    "title": "엔터켐 | 글로벌 소재와 한국 산업을 연결하는 전문 비즈니스 파트너",
+    "description": "엔터켐(ENTERCHEM)은 글로벌 소재와 한국 산업 현장을 연결하는 전문 비즈니스 파트너입니다. 화학소재 솔루션, 부동산 투자관리, 디지털 커머스, 사업개발·투자자문 영역에서 신뢰할 수 있는 파트너십을 제공합니다.",
+    "headings": [
+      "글로벌 소재와 한국 산업을연결하는 전문 비즈니스 파트너",
+      "신뢰를 기반으로 성장한 파트너",
+      "과제를 발견하고 공급까지 실행합니다",
+      "산업에서 먼저 탐색하세요",
+      "네 가지 사업, 하나의 실행력",
+      "판매를 넘어 연결하는 역량",
+      "글로벌 소싱 네트워크",
+      "프로젝트 경험",
+      "귀사의 과제에 맞는 소재와 해결 방법을 함께 찾겠습니다.",
+      "알림"
+    ],
+    "tech": [],
+    "hasForm": false,
+    "pageHeight": 7617,
+    "images": [
+      "main.webp",
+      "d1.webp",
+      "d2.webp",
+      "d3.webp",
+      "d4.webp"
+    ],
+    "mobile": "mobile.webp"
+  },
+  "gaok-house": {
+    "name": "gaok-house",
+    "title": "가옥이네 - Premium Real Estate",
+    "description": "",
+    "headings": [
+      "전국 최신 분양정보, 지금 가장 빠르게 확인하세요",
+      "인기분양현장",
+      "campaign 공지사항",
+      "how_to_reg 실시간 접수현황",
+      "관심고객등록",
+      "당신의 시간이 가치 있도록, 가옥이네가 당신을 찾아갑니다.",
+      "고객센터"
+    ],
+    "tech": [
+      "Tailwind CSS"
+    ],
+    "hasForm": true,
+    "pageHeight": 5324,
+    "images": [
+      "main.webp",
+      "d1.webp",
+      "d2.webp",
+      "d3.webp"
+    ],
+    "mobile": "mobile.webp"
+  },
+  "goodmorning-financialplus": {
+    "name": "goodmorning-financialplus",
+    "title": "굿모닝재무플러스 대부중개 | 맞춤 대출 비교·상담",
+    "description": "후순위담보대출, 추가담보대출, 전세퇴거자금, 사업자대출, 매매잔금, 차량담보대출, 채무통합, 무설정하우스론, 신용대출. 신용점수 영향 없는 무료 상담.",
+    "headings": [
+      "굿모닝재무플러스, 맞춤 대출 찾기",
+      "굿모닝재무플러스맞춤 대출 찾기",
+      "한도는 높이고, 금리는 낮추세요",
+      "■ 대출사례",
+      "어떻게 진행되나요?",
+      "이용 고객님들의 생생한 후기",
+      "자주 묻는 질문",
+      "과다한 광고클릭에 대한 안내입니다."
+    ],
+    "tech": [],
+    "hasForm": true,
+    "pageHeight": 6658,
+    "images": [
+      "main.webp",
+      "d1.webp",
+      "d2.webp",
+      "d3.webp",
+      "d4.webp"
+    ],
+    "mobile": "mobile.webp"
+  },
+  "gachi": {
+    "name": "gachi",
+    "title": "벤처기업 인증 무료진단 | 가치행정사사무소",
+    "description": "우리 회사도 벤처기업 인증이 가능할까요? 창업정책 주무관·액셀러레이터 출신 행정사가 평가자 시선으로 무료 진단해 드립니다.",
+    "headings": [
+      "우리 회사도 벤처기업 인증이 가능할까요?",
+      "이런 기업이라면무료 진단 신청하세요",
+      "무료진단에서 확인하는 4가지",
+      "혜택이 분명한 벤처인증",
+      "가치행정사사무소와함께해야 하는 이유",
+      "그래서, 이렇게 일합니다",
+      "벤처기업 인증 서비스제공절차",
+      "자주 묻는 질문",
+      "무료진단 신청"
+    ],
+    "tech": [],
+    "hasForm": true,
+    "pageHeight": 8752,
+    "images": [
+      "main.webp",
+      "d1.webp",
+      "d2.webp",
+      "d3.webp",
+      "d4.webp"
+    ],
+    "mobile": "mobile.webp"
+  },
+  "happy-haseyeon": {
+    "name": "happy-haseyeon",
+    "title": "행복하서연",
+    "description": "다이어트는 정말 쉽다. 솔직한 일상과 후기를 기록합니다 — 행복하서연",
+    "headings": [
+      "행복하서연"
+    ],
+    "tech": [],
+    "hasForm": false,
+    "pageHeight": 900,
+    "images": [
+      "main.webp"
+    ],
+    "mobile": "mobile.webp"
+  },
+  "hanoi-kim-teacher": {
+    "name": "hanoi-kim-teacher",
+    "title": "하노이김선생 | 하노이 김선생 — 하노이 자유여행 정보·숙소·차량·예약 대행",
+    "description": "하노이김선생(하노이 김선생) — 하노이 자유여행 숙소·차량·투어·밤문화 정보를 무료로 안내하고, 카카오톡·텔레그램으로 예약까지 대행합니다. 현지 검증 정보만 제공합니다.",
+    "headings": [
+      "하노이김선생과 함께하는 하노이 자유여행,준비부터 예약까지 한 번에",
+      "문의 전, 운영 채널을 먼저 확인해 보세요",
+      "카테고리 바로가기",
+      "이번 시즌 추천 숙소",
+      "지금 인기 있는 콘텐츠",
+      "이용 방법 — 정보는 무료, 예약은 편하게",
+      "이용 후기",
+      "하노이 일정, 아직 못 정하셨나요?"
+    ],
+    "tech": [
+      "알림 연동"
+    ],
+    "hasForm": false,
+    "pageHeight": 3808,
+    "images": [
+      "main.webp",
+      "d1.webp",
+      "d2.webp"
+    ],
+    "mobile": "mobile.webp"
+  },
+  "health-callcenter-crm": {
+    "name": "health-callcenter-crm",
+    "title": "로그인 | 건기식 콜센터 CRM",
+    "description": "",
+    "headings": [
+      "Welcome",
+      "로그인 완료",
+      "알림"
+    ],
+    "tech": [],
+    "hasForm": true,
+    "pageHeight": 900,
+    "images": [
+      "main.webp"
+    ],
+    "mobile": "mobile.webp"
+  },
+  "hawaii-palms": {
+    "name": "hawaii-palms",
+    "title": "하와이 팜스 어학원",
+    "description": "",
+    "headings": [
+      "책을 넘어선 영어교육, 하와이에서 시작됩니다."
+    ],
+    "tech": [],
+    "hasForm": false,
+    "pageHeight": 10997,
+    "images": [
+      "main.webp",
+      "d1.webp",
+      "d2.webp",
+      "d3.webp",
+      "d4.webp"
+    ],
+    "mobile": "mobile.webp"
+  },
+  "han-bio": {
+    "name": "han-bio",
+    "title": "한바이오 닥터다이어리 | 당뇨·혈당관리 줄기세포 상담 프로그램",
+    "description": "한바이오 닥터다이어리 — 당뇨·혈당관리에 줄기세포 프로세스를 더한 맞춤 상담. GMP·임상·특허 기반 무료 방문 상담.",
+    "headings": [
+      "당뇨로 고생하고포기했던 일상,이젠 줄기세포로 희망을!",
+      "당뇨 환자들의 현실 고민",
+      "당뇨가 무서운 이유",
+      "고민에서 개선으로",
+      "다른 병원과 한바이오 차별화",
+      "당화혈색소 평균0.55 감소",
+      "연구·생체 실험 자료",
+      "당뇨 환자 임상 사례 사진",
+      "여성 안티에이징 × 세포과학",
+      "여성 피부 노화는“탄력 저하”로 먼저 체감됩니다"
+    ],
+    "tech": [],
+    "hasForm": true,
+    "pageHeight": 23571,
+    "images": [
+      "main.webp",
+      "d1.webp",
+      "d2.webp",
+      "d3.webp",
+      "d4.webp"
+    ],
+    "mobile": "mobile.webp"
+  },
+  "hamsung": {
+    "name": "hamsung",
+    "title": "함성 | 유아체육·어린이집 체육 파견 · 버크만 워크숍 · 부모 참여수업",
+    "description": "유아체육 교육 회사 함성. 어린이집·유치원 체육 파견, 버크만 팀빌딩 워크숍, 오감 융합 하이브리드 체육, 프리미엄 부모 참여수업으로 원장님의 든든한 교육 파트너가 됩니다. 고양 본사.",
+    "headings": [
+      "원장님과 '함'께 '성'장하는 든든한 교육 파트너",
+      "\"단순한 체육 수업이 아닌,원장님의 가장 든든한 교육 파트너가되겠습니다\"",
+      "세 축이 함께 성장하는3가지 차별화",
+      "함성의 수업 현장",
+      "\"교육의 질은 교사의 질을뛰어넘을 수 없습니다\"",
+      "신학기 교사 전원 버크만 팀빌딩 워크숍 전액 무료 지원",
+      "원장님과 '함'께 '성'장하겠습니다"
+    ],
+    "tech": [],
+    "hasForm": true,
+    "pageHeight": 7542,
+    "images": [
+      "main.webp",
+      "d1.webp",
+      "d2.webp",
+      "d3.webp",
+      "d4.webp"
+    ],
+    "mobile": "mobile.webp"
+  },
+  "hillstate-parkfore": {
+    "name": "hillstate-parkfore",
+    "title": "힐스테이트 수원파크포레 | 분양 홈페이지",
+    "description": "힐스테이트 수원파크포레 분양 안내 — 사업개요, 입지, 평면, 관심고객 등록",
+    "headings": [
+      "문의신청",
+      "예약·방문 신청",
+      "개인정보 수집·이용 안내",
+      "접수 완료"
+    ],
+    "tech": [
+      "GA/GTM"
+    ],
+    "hasForm": true,
+    "pageHeight": 1100,
+    "images": [
+      "main.webp"
+    ],
+    "mobile": "mobile.webp"
+  },
+  "hillstay-sungui": {
+    "name": "hillstay-sungui",
+    "title": "Hillstay 방문 예약 | 프리미엄 주거 공간 상담",
+    "description": "Hillstay 프리미엄 주거 공간을 직접 방문하여 체험해보세요. 전문 상담사가 맞춤형 상담을 제공합니다. 방문 예약 신청을 통해 원하시는 날짜와 시간에 방문하실 수 있습니다.",
+    "headings": [
+      "방문 상담 예약",
+      "Hillstay 공간 소개"
+    ],
+    "tech": [],
+    "hasForm": true,
+    "pageHeight": 14249,
+    "images": [
+      "main.webp",
+      "d1.webp",
+      "d2.webp",
+      "d3.webp",
+      "d4.webp"
+    ],
+    "mobile": "mobile.webp"
+  },
+  "highEnd": {
+    "name": "highEnd",
+    "title": "하이엔드 배관케어 | 하수구 막힘 · 배관 세척 · 고압세척 · 내시경 진단",
+    "description": "막힌 하수구, 악취 나는 배관 전문 장비로 확실하게 해결. 하이엔드 배관케어 - 365일 상담, 방문 점검 가능.",
+    "headings": [
+      "막힌 하수구,악취 나는 배관전문장비로 확실하게 해결합니다",
+      "혹시 이런 문제 있으신가요?",
+      "오직, 하이엔드 배관케어만이제공하는 올인원 서비스",
+      "오직, 하이엔드 배관만이고객과 약속",
+      "100시간 교육 이수경험 많은 배관 마스터",
+      "하이엔드 배관케어 서비스",
+      "작업 진행 과정",
+      "작업 전후 비교",
+      "실제 후기속 현장사진",
+      "실제 고객 후기"
+    ],
+    "tech": [],
+    "hasForm": true,
+    "pageHeight": 9560,
+    "images": [
+      "main.webp",
+      "d1.webp",
+      "d2.webp",
+      "d3.webp",
+      "d4.webp"
+    ],
+    "mobile": "mobile.webp"
+  },
+  "hillstate-sky": {
+    "name": "hillstate-sky",
+    "title": "힐스테이트 동인 더 스카이 전세 | 회사보유분 전세임대 84타입 2억5천~ · 즉시입주",
+    "description": "힐스테이트 동인 더 스카이 회사보유분 전세임대. 대구 중구 동인동 1,009세대 대단지 신축, 84타입 전세 2억5천~, 대출 최대 80%, 이자지원 600만원, 즉시입주, 시스템에어컨 4대 포함. 전세상담 1899-3770",
+    "headings": [
+      "84타입 전세2억5천~",
+      "이자지원 600만원",
+      "신탁 안심전세",
+      "대구 중심을 대표하는1,009세대 랜드마크",
+      "PREMIUM 6",
+      "PREMIUMLOCATION",
+      "힐스테이트 3H 특화시스템",
+      "84타입 평면안내",
+      "동·호수 배치",
+      "커뮤니티 & 조경"
+    ],
+    "tech": [
+      "GA/GTM"
+    ],
+    "hasForm": true,
+    "pageHeight": 14492,
+    "images": [
+      "main.webp",
+      "d1.webp",
+      "d2.webp",
+      "d3.webp",
+      "d4.webp"
+    ],
+    "mobile": "mobile.webp"
+  },
+  "hoyeon": {
+    "name": "hoyeon",
+    "title": "호연행정사사무소 | 공장등록 HACCP 공공조달 출입국 인허가",
+    "description": "호연행정사사무소는 공장등록, HACCP, 공공조달, 출입국 등 인허가를 전문으로 하는 행정사사무소입니다. 대한행정사협회 정회원이 처음부터 끝까지 함께합니다. 무료 상담 010-8559-9581",
+    "headings": [
+      "복잡한 인허가,처음부터 끝까지 설계합니다",
+      "인허가 한 장이사업의 속도를 바꿉니다",
+      "인허가를 중심으로,사업에 필요한 행정을 다룹니다",
+      "다섯 단계로 끝나는인허가 진행",
+      "호연이 지키는 운영 기준",
+      "단순 대행이 아니라,설계 파트너입니다",
+      "의뢰인의 카카오톡 후기",
+      "상담 전, 자주 묻는 질문",
+      "지금 바로,호연과 시작하세요"
+    ],
+    "tech": [],
+    "hasForm": true,
+    "pageHeight": 9700,
+    "images": [
+      "main.webp",
+      "d1.webp",
+      "d2.webp",
+      "d3.webp",
+      "d4.webp"
+    ],
+    "mobile": "mobile.webp"
+  },
+  "icon-biz": {
+    "name": "icon-biz",
+    "title": "아이콘비즈 | 비사업자·사업자 PG카드결제 · 수기결제 · SMS결제 · 온라인PG",
+    "description": "아이콘비즈(페이스토리) PG카드결제 — 비사업자·사업자·법인 모두 가능. 무선단말기·수기결제·SMS결제·온라인PG 쇼핑몰 결제, 오늘결제 내일입금. 무료상담 010-5746-1875",
+    "headings": [
+      "사업자·법인부터개인까지 카드결제는 필요하니까.|",
+      "혹시 이런 이유로 카드결제를 포기하고 계셨나요?",
+      "사업자·법인부터 개인까지 모두 사용할 수 있는 결제솔루션",
+      "스마트폰이 곧 최고의 결제 단말기",
+      "이미 다양한 현장에서 카드결제가 필요합니다.",
+      "한 대로 더 편리하게 결제하세요.",
+      "상담부터 사용까지 어렵지 않습니다.",
+      "신청 전, 짧게 확인",
+      "사업자·법인·개인 모두 카드결제 환경을 준비하세요."
+    ],
+    "tech": [
+      "GA/GTM"
+    ],
+    "hasForm": true,
+    "pageHeight": 8493,
+    "images": [
+      "main.webp",
+      "d1.webp",
+      "d2.webp",
+      "d3.webp",
+      "d4.webp"
+    ],
+    "mobile": "mobile.webp"
+  },
+  "icon-biz-a": {
+    "name": "icon-biz-a",
+    "title": "말리PG | 비사업자·사업자 PG카드결제 · 수기결제 · SMS결제 · 온라인PG",
+    "description": "말리PG PG카드결제 — 비사업자·사업자·법인 모두 가능. 무선단말기·수기결제·SMS결제·온라인PG 쇼핑몰 결제, 오늘결제 내일입금. 무료상담 010-8175-3392",
+    "headings": [
+      "사업자·법인부터개인까지 카드결제는 필요하니까.|",
+      "혹시 이런 이유로 카드결제를 포기하고 계셨나요?",
+      "사업자·법인부터 개인까지 모두 사용할 수 있는 결제솔루션",
+      "스마트폰이 곧 최고의 결제 단말기",
+      "자료까지 투명하게, 말리PG는 신뢰로 선택받습니다.",
+      "이미 다양한 현장에서 카드결제가 필요합니다.",
+      "한 대로 더 편리하게 결제하세요.",
+      "상담부터 사용까지 어렵지 않습니다.",
+      "신청 전, 짧게 확인",
+      "사업자·법인·개인 모두 카드결제 환경을 준비하세요."
+    ],
+    "tech": [
+      "GA/GTM"
+    ],
+    "hasForm": true,
+    "pageHeight": 9182,
+    "images": [
+      "main.webp",
+      "d1.webp",
+      "d2.webp",
+      "d3.webp",
+      "d4.webp"
+    ],
+    "mobile": "mobile.webp"
+  },
+  "icon-paybiz": {
+    "name": "icon-paybiz",
+    "title": "아이콘비즈 | 카드결제 도입 상담·가맹 신청 안내",
+    "description": "아이콘비즈 카드결제 도입 상담센터. 업종별 이용 조건과 준비서류를 확인하고 단말기·수기·링크결제 신청까지 안내합니다.",
+    "headings": [
+      "카드결제 도입 전, 이런 점이 궁금하신가요?",
+      "거래 상황에 맞는 결제 방식을 상담하세요.",
+      "단말기가 없는 거래라면 휴대폰 결제를 상담하세요",
+      "업종별 이용 조건, 상담으로 먼저 확인하세요.",
+      "이용 장소에 맞는 단말기를 안내합니다.",
+      "상담 신청 후 이렇게 진행됩니다.",
+      "도입 상담 전, 자주 묻는 질문",
+      "이용 조건 확인부터 신청까지 안내해 드립니다."
+    ],
+    "tech": [],
+    "hasForm": true,
+    "pageHeight": 8471,
+    "images": [
+      "main.webp",
+      "d1.webp",
+      "d2.webp",
+      "d3.webp",
+      "d4.webp"
+    ],
+    "mobile": "mobile.webp"
+  },
+  "insure-fc": {
+    "name": "insure-fc",
+    "title": "보험 FC 리쿠르팅",
+    "description": "",
+    "headings": [
+      "내 보험 아끼면서 수익까지 만드는 방법",
+      "당신이 원하는 라이프스타일",
+      "지금 바로 변화가필요한 이유입니다",
+      "왜 보험 FC 리쿠르팅인가요?",
+      "이런 분들께 강력 추천합니다",
+      "자주 묻는 질문",
+      "당신의 새로운 도전을 응원합니다"
+    ],
+    "tech": [
+      "Tailwind CSS"
+    ],
+    "hasForm": true,
+    "pageHeight": 6026,
+    "images": [
+      "main.webp",
+      "d1.webp",
+      "d2.webp",
+      "d3.webp"
+    ],
+    "mobile": "mobile.webp"
+  },
+  "iqlab": {
+    "name": "iqlab",
+    "title": "IQLAB 아이큐랩 시스템",
+    "description": "",
+    "headings": [
+      "무료 신청하기 / 문의 폼"
+    ],
+    "tech": [],
+    "hasForm": true,
+    "pageHeight": 33949,
+    "images": [
+      "main.webp",
+      "d1.webp",
+      "d2.webp",
+      "d3.webp",
+      "d4.webp"
+    ],
+    "mobile": "mobile.webp"
+  },
+  "jebi-logis": {
+    "name": "jebi-logis",
+    "title": "제비로지스 - 통합 물류 서비스",
+    "description": "",
+    "headings": [
+      "제비로지스 소식",
+      "제비로지스 후기",
+      "사업소개",
+      "이용안내",
+      "차량제원",
+      "회사소개"
+    ],
+    "tech": [],
+    "hasForm": false,
+    "pageHeight": 10251,
+    "images": [
+      "main.webp",
+      "d1.webp",
+      "d2.webp",
+      "d3.webp",
+      "d4.webp"
+    ],
+    "mobile": "mobile.webp"
+  },
+  "jautofnc": {
+    "name": "jautofnc",
+    "title": "제이오토 - 장기렌트 리스 전문",
+    "description": "제이오토에서 제공하는 장기렌트 및 리스 서비스. 합리적인 가격과 전문 상담으로 최적의 차량을 찾아보세요.",
+    "headings": [
+      "온라인 상담"
+    ],
+    "tech": [
+      "GA/GTM"
+    ],
+    "hasForm": true,
+    "pageHeight": 15050,
+    "images": [
+      "main.webp",
+      "d1.webp",
+      "d2.webp",
+      "d3.webp",
+      "d4.webp"
+    ],
+    "mobile": "mobile.webp"
+  },
+  "jipjung-plan": {
+    "name": "jipjung-plan",
+    "title": "전립선 파워 집중 플랜 | 전화상담 특별혜택",
+    "description": "안국약품 전립선 파워 집중 플랜 전화상담 이벤트. 1+1·카드할인·사은품 혜택.",
+    "headings": [
+      "혜택 소멸 전이벤트 신청하기"
+    ],
+    "tech": [],
+    "hasForm": true,
+    "pageHeight": 26233,
+    "images": [
+      "main.webp",
+      "d1.webp",
+      "d2.webp",
+      "d3.webp",
+      "d4.webp"
+    ],
+    "mobile": "mobile.webp"
+  },
+  "juson": {
+    "name": "juson",
+    "title": "주손대부 | 신용대출 · 자동차담보대출 · 긴급담보대출",
+    "description": "주식회사 주손대부 신용대출·자동차담보대출·긴급담보대출. 간편 신청과 빠른 상담으로 맞춤 대출 서비스를 제공합니다.",
+    "headings": [
+      "대출상품",
+      "신용대출 · 자동차담보 · 긴급담보"
+    ],
+    "tech": [],
+    "hasForm": true,
+    "pageHeight": 2042,
+    "images": [
+      "main.webp",
+      "d1.webp",
+      "d2.webp"
+    ],
+    "mobile": "mobile.webp"
+  },
+  "js-company": {
+    "name": "js-company",
+    "title": "정부지원 고소작업대·진공리프트 상담 | 제이에스컴퍼니",
+    "description": "안전보건공단 지원사업으로 고소작업대·진공리프트 도입 비용을 절감하세요. 소규모 특화사업·스마트지원사업 자격 확인부터 서류와 신청 절차까지 제이에스컴퍼니가 안내합니다.",
+    "headings": [
+      "정부지원금으로 현장 장비를 바꾸세요",
+      "정부지원으로 부담은 낮추고 현장은 안전하게",
+      "지금 바로 상담 가능한 두 가지 핵심 품목",
+      "정부지원사업 전문 상담으로 현장과 서류까지 함께",
+      "우리 사업장에는 어떤 사업이 맞을까요?",
+      "상담에서 신청까지 단계를 단순하게",
+      "지원사업 안내와 품목 상담을 한곳에서",
+      "상담 고객이 전하는현장 이야기",
+      "지원 가능 여부를 빠르게 확인해 보세요",
+      "문의가 정상적으로접수되었습니다"
+    ],
+    "tech": [
+      "GA/GTM"
+    ],
+    "hasForm": true,
+    "pageHeight": 11774,
+    "images": [
+      "main.webp",
+      "d1.webp",
+      "d2.webp",
+      "d3.webp",
+      "d4.webp"
+    ],
+    "mobile": "mobile.webp"
+  },
+  "jw-home": {
+    "name": "jw-home",
+    "title": "jwhome | JW Home 전기 유지보수 정기구독",
+    "description": "jwhome(JW Home, 제이더블류홈) 전기 유지보수 정기구독. 고장 접수·전문 기사 방문·정기 관리로 비용·시간 지연 불편을 줄입니다.",
+    "headings": [
+      "고장 시 어디로 접수해야 할지 헷갈리고 비용·시간지연 등의불편함을 없애드립니다.",
+      "지금 바로 가입하고 전기 걱정 없는 편안한 생활을 시작하세요!"
+    ],
+    "tech": [],
+    "hasForm": false,
+    "pageHeight": 3226,
+    "images": [
+      "main.webp",
+      "d1.webp",
+      "d2.webp"
+    ],
+    "mobile": "mobile.webp"
+  },
+  "korea-study": {
+    "name": "korea-study",
+    "title": "K-Study | Korea Study — Учёба в Корее, курсы корейского языка",
+    "description": "K-Study (Korea Study) — учёба в Южной Корее, курсы корейского языка, университеты Сеула, Пусана, Инчхона и других городов. Подать заявку на обучение в Корее.",
+    "headings": [],
+    "tech": [],
+    "hasForm": false,
+    "pageHeight": 1073,
+    "images": [
+      "main.webp"
+    ],
+    "mobile": "mobile.webp"
+  },
+  "jsycompany": {
+    "name": "jsycompany",
+    "title": "JSYCOMPANY | 투자도 타이밍 — 분양광고 전문 멀티채널 광고대행",
+    "description": "투자도 타이밍. 네이버·카카오·메타·구글·당근·LMS 통합 분양광고. 1현장 1담당자 원칙의 1대1 맞춤 컨설팅, JSYCOMPANY.",
+    "headings": [
+      "투자도타이밍",
+      "당사는 분양광고 수주를 위한광고비 사용은 일절 없습니다.",
+      "성과의 차이는광고운영의 깊이에서",
+      "부동산 관심 잠재고객 타겟설정이렇게 설계합니다",
+      "상담부터 성과 리포트까지 원스톱",
+      "요청 부터 만료 까지투명하게 진행",
+      "예산 배분에 따라성과가 달라집니다",
+      "데이터로 증명하는 분양 광고 실적",
+      "광고 집행 사례",
+      "사이드 문의"
+    ],
+    "tech": [],
+    "hasForm": true,
+    "pageHeight": 12919,
+    "images": [
+      "main.webp",
+      "d1.webp",
+      "d2.webp",
+      "d3.webp",
+      "d4.webp"
+    ],
+    "mobile": "mobile.webp"
+  },
+  "korea-study-eng": {
+    "name": "korea-study-eng",
+    "title": "K-Study | Study Abroad in South Korea",
+    "description": "Study abroad in South Korea with K-Study. Find university options, Korean language programs, and admission guidance for international students.",
+    "headings": [],
+    "tech": [],
+    "hasForm": false,
+    "pageHeight": 900,
+    "images": [
+      "main.webp"
+    ],
+    "mobile": "mobile.webp"
+  },
+  "korea-company-develop": {
+    "name": "korea-company-develop",
+    "title": "(유)한국중소기업지원센터 | 정부정책자금 전문 상담",
+    "description": "(유)한국중소기업지원센터는 정부정책자금, 운전자금, 시설자금, 정부 R&D 무상지원, 법인지원, 기업인증, ISO 인증 상담을 제공하는 정책자금 전문 상담 기관입니다. 대표상담번호 1668-4496.",
+    "headings": [
+      "정부정책자금의 모든 것을 알려드립니다",
+      "전문가가 직접 설계합니다",
+      "왜 대부분 기업은 자금이 부결될까요?",
+      "기업 맞춤 자금 & 인증 설계",
+      "진행 절차",
+      "단순 컨설팅이 아닙니다",
+      "무료 상담 신청",
+      "접수 완료",
+      "안내"
+    ],
+    "tech": [],
+    "hasForm": true,
+    "pageHeight": 9850,
+    "images": [
+      "main.webp",
+      "d1.webp",
+      "d2.webp",
+      "d3.webp",
+      "d4.webp"
+    ],
+    "mobile": "mobile.webp"
+  },
+  "kproment-company": {
+    "name": "kproment-company",
+    "title": "K.Prominent — 전국 지사 모집 | 기술을 파는 파트너",
+    "description": "아이디어만 가져오십시오. 특허 설계부터 MVP 시제품 제작까지, K.Prominent 본사가 스타트업의 CTO가 되어드립니다.",
+    "headings": [
+      "당신의 영업에 본사의 기술력을 더하다.",
+      "아직도 서류 대행만하고 계십니까?",
+      "기술 빌드업3단계 프로세스",
+      "3가지 수익이동시에 발생합니다",
+      "아이디어에서법인 설립까지",
+      "지금 바로파트너가 되십시오"
+    ],
+    "tech": [],
+    "hasForm": true,
+    "pageHeight": 7395,
+    "images": [
+      "main.webp",
+      "d1.webp",
+      "d2.webp",
+      "d3.webp",
+      "d4.webp"
+    ],
+    "mobile": "mobile.webp"
+  },
+  "kproment": {
+    "name": "kproment",
+    "title": "정책자금 전문 컨설팅 | 창업 성공률 100% 달성 | KProminent",
+    "description": "정책자금 전문 기술개발기업으로 창업과 성장의 모든 퍼즐을 맞춰드립니다. 예비창업자부터 기존 사업자까지 맞춤형 컨설팅으로 성공률을 극대화하세요. 무료 상담 1877-0994",
+    "headings": [
+      "정책자금 전문 기술개발기업으로창업 성공률 100%를 실현합니다",
+      "정책자금 신청 시 겪는 3가지 고민KProminent가 완벽하게 해결합니다",
+      "KProminent의 3단계 정책자금 전문 컨설팅창업 성공을 위한 완벽한 솔루션",
+      "무료 전문 상담 신청하기",
+      "KProminent를 선택해야 하는 이유정책자금 전문 컨설팅의 차별점",
+      "KProminent 전문가와 무료 상담 시작하기"
+    ],
+    "tech": [
+      "알림 연동"
+    ],
+    "hasForm": true,
+    "pageHeight": 9553,
+    "images": [
+      "main.webp",
+      "d1.webp",
+      "d2.webp",
+      "d3.webp",
+      "d4.webp"
+    ],
+    "mobile": "mobile.webp"
+  },
+  "kprominent-design": {
+    "name": "kprominent-design",
+    "title": "케이프로미넌트 디자인",
+    "description": "케이프로미넌트 디자인 - 비즈니스 맞춤형 브랜드 디자인 및 웹사이트 제작 컨설팅. 문의는 1877-0994 또는 온라인 문의폼을 이용해주세요.",
+    "headings": [
+      "케이프로미넌트 디자인 - 브랜드 디자인 및 웹사이트 제작",
+      "인테리어 디자인 상품",
+      "서비스 단계별 안내",
+      "문의하기"
+    ],
+    "tech": [],
+    "hasForm": true,
+    "pageHeight": 9915,
+    "images": [
+      "main.webp",
+      "d1.webp",
+      "d2.webp",
+      "d3.webp",
+      "d4.webp"
+    ],
+    "mobile": "mobile.webp"
+  },
+  "lamy": {
+    "name": "lamy",
+    "title": "The Lamy | Innovative Cosmetics R&D Manufacturing",
+    "description": "The Lamy Co., Ltd. — cosmetics R&D manufacturing, brand portfolio, and global partnerships since 1976.",
+    "headings": [
+      "Innovative cosmeticsR&D manufacturing",
+      "An integrated cosmeticsR&D manufacturer",
+      "Doctor.3 — skin engineering",
+      "Licensing, retail & global brands",
+      "From concept to release",
+      "Capacity builtfor real markets",
+      "Built for global retail partners",
+      "Wholesale & CollaborationInquiries"
+    ],
+    "tech": [],
+    "hasForm": false,
+    "pageHeight": 11710,
+    "images": [
+      "main.webp",
+      "d1.webp",
+      "d2.webp",
+      "d3.webp",
+      "d4.webp"
+    ],
+    "mobile": "mobile.webp"
+  },
+  "law-partner2": {
+    "name": "law-partner2",
+    "title": "법무법인 태윤 | 채무조정, 개인회생, 신용회복 전문 법률상담",
+    "description": "채무조정·개인회생·신용회복 전문 법무법인 태윤. 서울 서초구, 365일 24시간 상담 가능",
+    "headings": [
+      "법무법인태윤 - 채무조정, 개인회생, 신용회복 전문 법률서비스",
+      "실제 결정문 사례",
+      "실시간 상담신청",
+      "문의하기",
+      "상담 신청 완료"
+    ],
+    "tech": [],
+    "hasForm": true,
+    "pageHeight": 9104,
+    "images": [
+      "main.webp",
+      "d1.webp",
+      "d2.webp",
+      "d3.webp",
+      "d4.webp"
+    ],
+    "mobile": "mobile.webp"
+  },
+  "law-taeyoon": {
+    "name": "law-taeyoon",
+    "title": "법무법인 태윤 — 채무조정·개인회생·신용회복",
+    "description": "법무법인 태윤 — 채무조정, 개인회생, 신용회복 전문 법률상담. 연체·채권추심·압류 대응부터 면책까지. 서울 서초구 반포대로 26길 58 4층.",
+    "headings": [
+      "빚 때문에 숨막히는 상황, 이제 끝낼 수 있습니다.",
+      "개인회생·채무 정리 안내",
+      "실제 결정문사례 실제 결정문 사례",
+      "다분야 탕감사례",
+      "의뢰인 후기",
+      "자주 하는 질문",
+      "채무·회생 법률 상담",
+      "개인정보 처리방침",
+      "오시는 길"
+    ],
+    "tech": [
+      "Tailwind CSS",
+      "GA/GTM"
+    ],
+    "hasForm": true,
+    "pageHeight": 8126,
+    "images": [
+      "main.webp",
+      "d1.webp",
+      "d2.webp",
+      "d3.webp",
+      "d4.webp"
+    ],
+    "mobile": "mobile.webp"
+  },
+  "law-partner": {
+    "name": "law-partner",
+    "title": "법률사무소 태윤 | 채무조정, 개인회생, 신용회복 전문 법률상담",
+    "description": "채무조정·개인회생·신용회복 전문 법률사무소 태윤. 서울 서초구, 365일 24시간 상담 가능",
+    "headings": [
+      "법률사무소태윤 - 채무조정, 개인회생, 신용회복 전문 법률서비스",
+      "실제 결정문 사례",
+      "실시간 상담신청",
+      "문의하기",
+      "상담 신청 완료"
+    ],
+    "tech": [],
+    "hasForm": true,
+    "pageHeight": 8945,
+    "images": [
+      "main.webp",
+      "d1.webp",
+      "d2.webp",
+      "d3.webp",
+      "d4.webp"
+    ],
+    "mobile": "mobile.webp"
+  },
+  "law-uil": {
+    "name": "law-uil",
+    "title": "법무법인 유일 - 부동산 전문 | 서초분사무소 · 변호사 1:1 상담",
+    "description": "법무법인 유일 - 부동산 전문, 서초분사무소. 부동산 전문 변호사 상담. 명도, 분양·매매, 임대차, 보전처분 소송·자문. 서울 서초구 반포대로 26길 58 4층.",
+    "headings": [
+      "편리성",
+      "신속성",
+      "전문성",
+      "주요소송업무",
+      "대표변호사 소개",
+      "법률 상담 문의",
+      "부동산 전문 변호사 프로필",
+      "개인정보 처리방침",
+      "오시는 길"
+    ],
+    "tech": [
+      "Tailwind CSS",
+      "Naver Analytics"
+    ],
+    "hasForm": true,
+    "pageHeight": 6117,
+    "images": [
+      "main.webp",
+      "d1.webp",
+      "d2.webp",
+      "d3.webp"
+    ],
+    "mobile": "mobile.webp"
+  },
+  "local-mobile": {
+    "name": "local-mobile",
+    "title": "시내모바일 - 공신폰 | 잠실리센츠 AM휴대폰성지 1호점",
+    "description": "시내모바일에서 중·고등학생용 공신폰을 판매합니다. 학교, 학원, 인강 등 학습 관리 앱 위주로 구성하여 학업 효율을 극대화합니다. 잠실리센츠 AM휴대폰성지 1호점에서 특별 할인 혜택을 받아보세요.",
+    "headings": [
+      "실시간 상담"
+    ],
+    "tech": [],
+    "hasForm": false,
+    "pageHeight": 11358,
+    "images": [
+      "main.webp",
+      "d1.webp",
+      "d2.webp",
+      "d3.webp",
+      "d4.webp"
+    ],
+    "mobile": "mobile.webp"
+  },
+  "law-yeil-ver2": {
+    "name": "law-yeil-ver2",
+    "title": "법무법인 예일법조 개인회생·파산 상담센터 | 채무조정 무료상담",
+    "description": "법무법인 예일법조 개인회생·파산 상담센터. 채무 규모, 소득, 재산 상황을 확인해 개인회생, 개인파산, 채무조정 가능성을 비공개로 안내합니다.",
+    "headings": [
+      "오늘도 “이자만막자” 하며 고민이 많으신가요?",
+      "이런 신호가 보인다면 점검이 필요합니다.",
+      "상황을 듣고, 절차를 설계합니다.",
+      "처음 상담부터 절차 마무리까지.",
+      "책임변호사 송철훈",
+      "실제 판결 사례로 증명합니다.",
+      "많이 물어보시는 내용을 정리했습니다.",
+      "현재 상황부터확인해보세요."
+    ],
+    "tech": [
+      "Tailwind CSS",
+      "GA/GTM",
+      "Naver Analytics"
+    ],
+    "hasForm": true,
+    "pageHeight": 7997,
+    "images": [
+      "main.webp",
+      "d1.webp",
+      "d2.webp",
+      "d3.webp",
+      "d4.webp"
+    ],
+    "mobile": "mobile.webp"
+  },
+  "malja": {
+    "name": "malja",
+    "title": "말자대부중개 — 빠르고 안전한 대출 상담",
+    "description": "",
+    "headings": [
+      "복잡한 절차 없이 상담부터 입금까지 빠르게",
+      "지금 바로 상담하세요",
+      "빠르고 안전한 대출 서비스",
+      "상황별 맞춤 대출 상품",
+      "직장인이라면 누구나 가능",
+      "군인을 위한 빠른 지원",
+      "급할 때 바로 해결",
+      "소득 없어도 가능합니다",
+      "간단한 진행 절차",
+      "안전하게 이용하세요"
+    ],
+    "tech": [],
+    "hasForm": false,
+    "pageHeight": 9314,
+    "images": [
+      "main.webp",
+      "d1.webp",
+      "d2.webp",
+      "d3.webp",
+      "d4.webp"
+    ],
+    "mobile": "mobile.webp"
+  },
+  "mali-pg": {
+    "name": "mali-pg",
+    "title": "아이콘비즈 | 비사업자·사업자 PG카드결제 · 수기결제 · SMS결제 · 온라인PG",
+    "description": "아이콘비즈(페이스토리) PG카드결제 — 비사업자·사업자·법인 모두 가능. 무선단말기·수기결제·SMS결제·온라인PG 쇼핑몰 결제, 오늘결제 내일입금. 무료상담 010-8175-3392",
+    "headings": [
+      "사업자·법인부터개인까지 카드결제는 필요하니까.|",
+      "혹시 이런 이유로 카드결제를 포기하고 계셨나요?",
+      "사업자·법인부터 개인까지 모두 사용할 수 있는 결제솔루션",
+      "스마트폰이 곧 최고의 결제 단말기",
+      "이미 다양한 현장에서 카드결제가 필요합니다.",
+      "한 대로 더 편리하게 결제하세요.",
+      "상담부터 사용까지 어렵지 않습니다.",
+      "신청 전, 짧게 확인",
+      "사업자·법인·개인 모두 카드결제 환경을 준비하세요."
+    ],
+    "tech": [
+      "GA/GTM"
+    ],
+    "hasForm": true,
+    "pageHeight": 8493,
+    "images": [
+      "main.webp",
+      "d1.webp",
+      "d2.webp",
+      "d3.webp",
+      "d4.webp"
+    ],
+    "mobile": "mobile.webp"
+  },
+  "media-market": {
+    "name": "media-market",
+    "title": "미디어마켓 - 영상시청 해주실분 찾습니다",
+    "description": "미디어마켓에서 영상시청 해주실분을 찾고 있습니다. 간단한 신청 절차로 참여하실 수 있습니다.",
+    "headings": [],
+    "tech": [
+      "GA/GTM"
+    ],
+    "hasForm": true,
+    "pageHeight": 2945,
+    "images": [
+      "main.webp",
+      "d1.webp",
+      "d2.webp"
+    ],
+    "mobile": "mobile.webp"
+  },
+  "mind-nook": {
+    "name": "mind-nook",
+    "title": "확언 랜딩페이지",
+    "description": "버튼을 누르면, 오늘의 나에게 건네는 다정한 한 마디가 도착합니다.",
+    "headings": [],
+    "tech": [],
+    "hasForm": false,
+    "pageHeight": 900,
+    "images": [
+      "main.webp"
+    ],
+    "mobile": "mobile.webp"
+  },
+  "malja-2": {
+    "name": "malja-2",
+    "title": "말자대부중개 — 대출 상담",
+    "description": "말자대부중개 대출 상담 서비스. 직장인, 군인, 무직자, 대학생 및 취준생 대상 맞춤 상담을 빠르게 도와드립니다.",
+    "headings": [
+      "말자대부중개 복잡한 절차 없이",
+      "lock 빠른 상담 신청",
+      "말자대부중개 실시간 신청현황",
+      "빠르고 안전한 대출 서비스",
+      "정식등록업체",
+      "상황별 맞춤 대출 상품",
+      "직장인이라면 누구나 가능",
+      "군인을 위한 빠른 지원",
+      "급할 때 바로 해결",
+      "소득 없어도 가능합니다"
+    ],
+    "tech": [
+      "Tailwind CSS"
+    ],
+    "hasForm": true,
+    "pageHeight": 10544,
+    "images": [
+      "main.webp",
+      "d1.webp",
+      "d2.webp",
+      "d3.webp",
+      "d4.webp"
+    ],
+    "mobile": "mobile.webp"
+  },
+  "milkt": {
+    "name": "milkt",
+    "title": "밀크T 울산센터 무료체험 신청 | 천재교과서 밀크T 초등 온라인 학습",
+    "description": "밀크T 울산센터에서 진행하는 무료체험 이벤트에 신청하세요. 천재교과서 밀크T 초등 온라인 학습으로 자녀의 성적을 올려보세요. 3초 만에 간편하게 신청 가능합니다.",
+    "headings": [
+      "밀크T 울산센터 무료체험 신청",
+      "3초 만에 끝"
+    ],
+    "tech": [],
+    "hasForm": true,
+    "pageHeight": 14543,
+    "images": [
+      "main.webp",
+      "d1.webp",
+      "d2.webp",
+      "d3.webp",
+      "d4.webp"
+    ],
+    "mobile": "mobile.webp"
+  },
+  "mekander": {
+    "name": "mekander",
+    "title": "",
+    "description": "",
+    "headings": [
+      "메칸더 메칸더 차원이다른 차원이다른 프라이빗 프라이빗 가라오케 하이퍼블릭 가라오케 하이퍼블릭",
+      "메칸더는 단순한 가라오케가 아닙니다. 가라오케가 아닙니다.",
+      "완전한 독립, 프라이빗한 휴식.",
+      "오늘의 무드를 완성하는 메칸더 멤버진. 오늘의 무드를 완성하는 메칸더 멤버진",
+      "최상의 품질을 약속합니다. 최상의 품질을 약속합니다",
+      "HOW TO USE",
+      "REVIEW",
+      "도심 속의 비밀스런 아지트.",
+      "지금 바로 메칸더를 경험하세요"
+    ],
+    "tech": [
+      "Tailwind CSS"
+    ],
+    "hasForm": false,
+    "pageHeight": 8070,
+    "images": [
+      "main.webp",
+      "d1.webp",
+      "d2.webp",
+      "d3.webp",
+      "d4.webp"
+    ],
+    "mobile": "mobile.webp"
+  },
+  "mysticportal": {
+    "name": "mysticportal",
+    "skipped": "빌드 결과물/정적 index.html 없음"
+  },
+  "nam-brother": {
+    "name": "nam-brother",
+    "title": "큰형님 화이팅 · 명언집",
+    "description": "큰형님의 완쾌하는 그날까지 화이팅 !! -의령 남씨 25대손 우자돌림 막내 아우올림-",
+    "headings": [],
+    "tech": [],
+    "hasForm": false,
+    "pageHeight": 900,
+    "images": [
+      "main.webp"
+    ],
+    "mobile": "mobile.webp"
+  },
+  "mowon-rental": {
+    "name": "mowon-rental",
+    "title": "모원렌탈 · 공식 프로모션 | 정수기·생활가전 렌탈",
+    "description": "모원렌탈 공식 프로모션. 코웨이·LG·청호나이스·SK매직·쿠쿠 등 정수기·생활가전 렌탈, 제휴카드 할인, 당일설치 안내. 무료 상담 신청.",
+    "headings": [
+      "맞춤 렌탈 안내부터 설치 상담까지한번에 안내드립니다",
+      "재고 소진 시 이벤트 종료!",
+      "지금 무료 상담 신청하기",
+      "모원렌탈만의 특별한추가 혜택!",
+      "인기 렌탈 제품",
+      "왜 렌탈은모원렌탈과 함께할까요?",
+      "매달 생수 사느라번거로우셨죠?",
+      "스마트한 소비,실속있는 혜택!",
+      "모원렌탈이벤트 절차",
+      "재고 소진 시,이벤트 종료!"
+    ],
+    "tech": [
+      "GA/GTM",
+      "Meta Pixel"
+    ],
+    "hasForm": true,
+    "pageHeight": 15391,
+    "images": [
+      "main.webp",
+      "d1.webp",
+      "d2.webp",
+      "d3.webp",
+      "d4.webp"
+    ],
+    "mobile": "mobile.webp"
+  },
+  "mowon-homepage": {
+    "name": "mowon-homepage",
+    "title": "모원렌탈 — 렌탈상품, 가장 쉽게",
+    "description": "정수기·환경, 업소용·창업, 냉장·생활·주방가전, TV·IT, 건강·뷰티, 가구·침구 렌탈 상품을 합리적인 렌탈료와 제휴카드 혜택으로 비교하세요.",
+    "headings": [
+      "실시간 급상승 검색어",
+      "이달의 추천 렌탈상품",
+      "모원렌탈을 선택하는 이유",
+      "브랜드 바로가기",
+      "렌탈상품 비교",
+      "고객후기",
+      "자주 묻는 질문",
+      "지금 바로 무료 상담받아 보세요"
+    ],
+    "tech": [],
+    "hasForm": true,
+    "pageHeight": 6360,
+    "images": [
+      "main.webp",
+      "d1.webp",
+      "d2.webp",
+      "d3.webp"
+    ],
+    "mobile": "mobile.webp"
+  },
+  "muraca": {
+    "name": "muraca",
+    "title": "무라카",
+    "description": "",
+    "headings": [
+      "소개",
+      "천원빵 운영 사장님 대상",
+      "샵인샵(무인매장) 사장님 대상",
+      "예비 창업자 대상",
+      "천원빵 납품 사장님 대상",
+      "상담 안내",
+      "전국 천원빵 사장님들이 모인 오픈채팅방!"
+    ],
+    "tech": [],
+    "hasForm": false,
+    "pageHeight": 5324,
+    "images": [
+      "main.webp",
+      "d1.webp",
+      "d2.webp",
+      "d3.webp"
+    ],
+    "mobile": "mobile.webp"
+  },
+  "nemo-drive": {
+    "name": "nemo-drive",
+    "title": "운전연수 | 초보·장롱면허 맞춤 | 네모드라이브",
+    "description": "초보, 장롱면허도 부담 없는 1:1 운전연수! 집 앞에서 시작하는 방문운전연수, 여성강사 요청 가능, 맞춤 커리큘럼으로 안전하게 도와드립니다.",
+    "headings": [
+      "장롱면허 운전연수",
+      "체계적인 커리큘럼으로 실력 UP!",
+      "네모드라이브 수강생 후기",
+      "합리적인 가격의 운전연수",
+      "지역별 운전연수",
+      "자주 묻는 질문",
+      "운전연수, 지금 바로 문의하세요",
+      "문의 신청"
+    ],
+    "tech": [],
+    "hasForm": true,
+    "pageHeight": 4523,
+    "images": [
+      "main.webp",
+      "d1.webp",
+      "d2.webp"
+    ],
+    "mobile": "mobile.webp"
+  },
+  "on-and-only": {
+    "name": "on-and-only",
+    "title": "원앤온리 성형외과 | GRAND OPEN EVENT",
+    "description": "원앤온리 성형외과 그랜드 오픈 이벤트 — 시그니처 거상술, 눈 리프팅, 눈성형, 중안부 리프팅, 프리미엄 줄기세포 특가",
+    "headings": [
+      "GRANDOPEN EVENT",
+      "이벤트 참여 신청",
+      "개인정보 처리방침 안내"
+    ],
+    "tech": [],
+    "hasForm": true,
+    "pageHeight": 4641,
+    "images": [
+      "main.webp",
+      "d1.webp",
+      "d2.webp"
+    ],
+    "mobile": "mobile.webp"
+  },
+  "one-drive": {
+    "name": "one-drive",
+    "title": "바로드라이브 | 방문 운전연수·1:1 프리미엄 코칭 | 1668-5097",
+    "description": "집·직장 등에서 시작하는 방문 운전연수. 초보·장롱면허 1:1 코칭, 여성강사 요청 가능, 종합보험·보조 브레이크. 상담 1668-5097.",
+    "headings": [
+      "운전이 무서웠던 분들도,천천히 시작합니다",
+      "안심하고 맡기실 수 있는 이유",
+      "초보운전자의 걱정, 바로해결해 드립니다",
+      "초보도 4일이면달라집니다 초보도 4일이면 달라집니다",
+      "수강생 리얼 보이스",
+      "합리적이고 투명한 연수 비용",
+      "자주 묻는 질문",
+      "지금 바로 상담가능합니다. 지금 바로 상담 가능합니다"
+    ],
+    "tech": [
+      "Tailwind CSS",
+      "GA/GTM"
+    ],
+    "hasForm": true,
+    "pageHeight": 7739,
+    "images": [
+      "main.webp",
+      "d1.webp",
+      "d2.webp",
+      "d3.webp",
+      "d4.webp"
+    ],
+    "mobile": "mobile.webp"
+  },
+  "one-finance": {
+    "name": "one-finance",
+    "title": "MVP사업단 - 온라인 보험 설계사 모집",
+    "description": "",
+    "headings": [
+      "지인없는 온라인 보험 설계사 모집",
+      "혹시 이런 고민 갖고 계세요?",
+      "시간과 장소의 제약없는 쉽고 편안한 온라인 보험 영업을 소개합니다!",
+      "부담 없이 시작하고 성공적으로 정착할 수 있도록 아낌없이 도와드릴게요!",
+      "MVP사업단에서 시작하면 이런 혜택을 받습니다.",
+      "MVP사업단 입사후,성과가 이렇게 달라집니다.",
+      "MVP사업단 입사 상담 신청"
+    ],
+    "tech": [],
+    "hasForm": true,
+    "pageHeight": 6481,
+    "images": [
+      "main.webp",
+      "d1.webp",
+      "d2.webp",
+      "d3.webp"
+    ],
+    "mobile": "mobile.webp"
+  },
+  "psychological": {
+    "name": "psychological",
+    "skipped": "빌드 결과물/정적 index.html 없음"
+  },
+  "one-project": {
+    "name": "one-project",
+    "title": "ONE PROJECT — 당신의 브랜드를 하나의 프로젝트로 만듭니다.",
+    "description": "의류 브랜드 기획·디자인·생산·촬영·물류 원스톱. ONE PROJECT(원프로젝트)는 2016년부터 쌓아온 11년 경험으로 브랜드 런칭을 함께합니다.",
+    "headings": [
+      "당신의 브랜드를 하나의 프로젝트로 만듭니다. 만듭니다.",
+      "브랜드가 되기까지,모든 여정을 함께합니다.",
+      "5가지 전문 서비스",
+      "원프로젝트 제작 사례",
+      "11년이 만든 차이",
+      "성장에만 집중하세요나머지는 원프로젝트가 맡겠습니다"
+    ],
+    "tech": [],
+    "hasForm": false,
+    "pageHeight": 6947,
+    "images": [
+      "main.webp",
+      "d1.webp",
+      "d2.webp",
+      "d3.webp",
+      "d4.webp"
+    ],
+    "mobile": "mobile.webp"
+  },
+  "rent-car": {
+    "name": "rent-car",
+    "title": "월 최저 견적 1분 확인",
+    "description": "월 최저 견적 1분 확인. 상담비 무료 · 신용 영향 없음 · 비교견적 무료.",
+    "headings": [
+      "월 최저 견적1분확인",
+      "어떤 차량을찾고 계신가요?",
+      "어떤 형태로 진행을원하시나요?",
+      "연락처를입력해주세요.",
+      "접수가 완료되었습니다!"
+    ],
+    "tech": [],
+    "hasForm": true,
+    "pageHeight": 900,
+    "images": [
+      "main.webp"
+    ],
+    "mobile": "mobile.webp"
+  },
+  "one-stop": {
+    "name": "one-stop",
+    "title": "원스톱 폐업지원 | 철거비 최대 600만원",
+    "description": "점포 철거비 최대 600만원, 국비 100% 지원. 6년 연속 소상공인시장진흥공단 위촉 컨설턴트가 원상복구·보증금·폐업 절차까지 무료 방문 상담으로 도와드립니다.",
+    "headings": [
+      "철거비 최대 600만원지원 대상 확인",
+      "이런 고민 있으신가요?",
+      "이렇게 직접 도와드립니다.",
+      "도움 받은 분들의 이야기",
+      "자주 묻는 질문",
+      "상담부터 폐업까지 0원어떤 비용도 요구하지 않습니다.",
+      "개인정보 처리방침"
+    ],
+    "tech": [
+      "GA/GTM",
+      "Meta Pixel",
+      "Naver Analytics"
+    ],
+    "hasForm": true,
+    "pageHeight": 4808,
+    "images": [
+      "main.webp",
+      "d1.webp",
+      "d2.webp"
+    ],
+    "mobile": "mobile.webp"
+  },
+  "ramsclean": {
+    "name": "ramsclean",
+    "title": "람스클린 - 입주청소 전문클리닝 | 계단청소, 줄눈시공, 향균소독",
+    "description": "공간을 바꿀 혁명적 청소, 입주청소 잘하는 집 여기에요! 역시 람스클린. 입주청소, 계단청소, 줄눈시공, 향균소독. 1만 명 이상 이용, 연중무휴 상담.",
+    "headings": [
+      "람스클린 - 입주청소 전문클리닝",
+      "Before & After",
+      "진행 프로세스",
+      "믿고 맡길 수 있는 이유",
+      "람스클린을 사랑해주신 실시간 고객후기",
+      "온라인 문의하기",
+      "문의 접수 완료"
+    ],
+    "tech": [],
+    "hasForm": true,
+    "pageHeight": 5570,
+    "images": [
+      "main.webp",
+      "d1.webp",
+      "d2.webp",
+      "d3.webp"
+    ],
+    "mobile": "mobile.webp"
+  },
+  "pccm": {
+    "name": "pccm",
+    "title": "PCCM | PCCM 창업 공식 안내 - 폰케이스 무인창업 · S·A급 입점수수료 0원",
+    "description": "PCCM 창업 공식 안내 페이지. PCCM(피씨씨엠)은 매장 없이 머신 1대로 시작하는 커스텀 폰케이스 무인창업입니다. S·A급 입점처 입점수수료 0원 선착순 무상입점, 실제 매장 월 매출 2,883만원, 최대 마진율 78%. PCCM 창업 무료 상담 010-8457-2503",
+    "headings": [
+      "원래 300~500만원 내던입점수수료, 선착순 0원.",
+      "높은 마진율이안정적인 수익을 만듭니다",
+      "예시가 아닌,실제 매장의 숫자입니다",
+      "경험을 소비하는 시대,이미 시장 검증은 끝났습니다",
+      "프로 스포츠 구단이선택한 pccm",
+      "경쟁사가 아닌,pccm을 선택해야 하는 이유",
+      "누구나 쉽게,FROM DESIGN TO PRODUCTIN 2 MINUTES",
+      "지금 시작하면 받는창업특전 5가지",
+      "머신 1대 창업특전가 2,200만원,규모에 맞게 고르세요",
+      "머신은 주문 제작,결제는 제작 일정에 맞춰 3단계"
+    ],
+    "tech": [],
+    "hasForm": true,
+    "pageHeight": 28888,
+    "images": [
+      "main.webp",
+      "d1.webp",
+      "d2.webp",
+      "d3.webp",
+      "d4.webp"
+    ],
+    "mobile": "mobile.webp"
+  },
+  "robin": {
+    "name": "robin",
+    "title": "로빈",
+    "description": "에볼루션 바카라 프로젝트 전문 로빈. 1:1 집중 케어와 전문 픽스터 상담으로 수익 실현을 도와드립니다. 카카오톡·텔레그램 바로 문의하세요.",
+    "headings": [
+      "에볼루션바카라 프로젝트 전문 로빈 1:1 집중 케어",
+      "카카오톡입장 QR코드",
+      "성공내역"
+    ],
+    "tech": [
+      "알림 연동"
+    ],
+    "hasForm": false,
+    "pageHeight": 2336,
+    "images": [
+      "main.webp",
+      "d1.webp",
+      "d2.webp"
+    ],
+    "mobile": "mobile.webp"
+  },
+  "right-loan": {
+    "name": "right-loan",
+    "title": "바른대출 · 내 대출 한도, 30초 만에 무료로 확인하세요",
+    "description": "제휴 금융사 32곳의 대출 한도·금리를 한 번에 비교. 신용점수 영향 없는 무료 한도조회. 저금리 대환·맞춤 상담 중개.",
+    "headings": [
+      "내 대출 한도, 만에 무료로 확인하세요",
+      "한 곳만 보지 않습니다.32곳을 한 번에 비교합니다",
+      "금리·한도, 한 표에서나란히 비교하세요",
+      "조회부터 실행까지, 3단계",
+      "금리를 낮춘 사람들의 이야기",
+      "조회 전에 궁금한 점, 먼저 답해드려요",
+      "내 한도, 지금30초면 확인됩니다"
+    ],
+    "tech": [],
+    "hasForm": true,
+    "pageHeight": 6610,
+    "images": [
+      "main.webp",
+      "d1.webp",
+      "d2.webp",
+      "d3.webp",
+      "d4.webp"
+    ],
+    "mobile": "mobile.webp"
+  },
+  "ribon-plus": {
+    "name": "ribon-plus",
+    "title": "리본플러스 주간보호센터 | 의정부 신곡동 어르신 주간보호",
+    "description": "리본플러스 주간보호센터 — 어르신의 건강하고 행복한 노후를 정성으로 보살핍니다. 의정부 신곡동 위치, 인지·신체·여가 프로그램 운영, 송영서비스 제공.",
+    "headings": [
+      "따뜻한 돌봄이 머무는 곳,리본플러스 주간보호센터",
+      "리본플러스가 약속하는 세 가지",
+      "매일이 즐거운 맞춤 프로그램",
+      "쾌적하고 안전한 공간",
+      "찾아오시기 편한 위치",
+      "상담을 도와드리겠습니다"
+    ],
+    "tech": [],
+    "hasForm": false,
+    "pageHeight": 5367,
+    "images": [
+      "main.webp",
+      "d1.webp",
+      "d2.webp",
+      "d3.webp"
+    ],
+    "mobile": "mobile.webp"
+  },
+  "rogial": {
+    "name": "rogial",
+    "title": "로지알 | 집에서 즐겁게 돈 버는 수공예 손부업 - 재료 무료 배송, 안전 정산",
+    "description": "집에서 즐겁게 돈 버는 수공예 손부업. 팔찌, 인형 포장, 볼펜 조립, 스티커, 뜨개질 가방 등 단순 작업으로 부수입 창출. 재료 무료 배송, 완성품 수거, 검수 후 안전 정산. 1:1 담당자 안내로 누구나 쉽게 시작할 수 있는 정식 재택 부업입니다.",
+    "headings": [
+      "수공예 손부업은 이렇게 진행돼요",
+      "어떤 작업을 하게 되나요?",
+      "지원부터 정산까지, 이렇게 진행됩니다",
+      "자주 묻는 질문"
+    ],
+    "tech": [
+      "Tailwind CSS"
+    ],
+    "hasForm": false,
+    "pageHeight": 4937,
+    "images": [
+      "main.webp",
+      "d1.webp",
+      "d2.webp"
+    ],
+    "mobile": "mobile.webp"
+  },
+  "ruda": {
+    "name": "ruda",
+    "title": "루다",
+    "description": "에볼루션 바카라 프로젝트 전문 루다. 1:1 집중 케어와 전문 픽스터 상담으로 수익 실현을 도와드립니다. 카카오톡·텔레그램 바로 문의하세요.",
+    "headings": [
+      "에볼루션바카라 프로젝트 전문 루다 1:1 집중 케어",
+      "카카오톡입장 QR코드",
+      "성공내역"
+    ],
+    "tech": [
+      "알림 연동"
+    ],
+    "hasForm": false,
+    "pageHeight": 2336,
+    "images": [
+      "main.webp",
+      "d1.webp",
+      "d2.webp"
+    ],
+    "mobile": "mobile.webp"
+  },
+  "s-clean": {
+    "name": "s-clean",
+    "title": "쓸어담다 - 서울 경기 이사청소 입주청소 전문",
+    "description": "서울 경기 이사청소 입주청소 전문업체. 10,000명 이상 선택한 신뢰할 수 있는 청소 서비스. 무료 견적 상담 1844-0623",
+    "headings": [
+      "이사청소 입주청소 전문업체 쓸어담다",
+      "싼 곳? 빠른 곳?진짜 믿어도 되는 곳?",
+      "쓸어담다의 이야기",
+      "전문 청소 서비스",
+      "쓸어담다의 철칙 3가지",
+      "단 하나의 스토리로\"쓸어담다\"의 진심을 각인시키는 순간",
+      "실시간 전후 비교",
+      "변화의 순간",
+      "이사청소 전문가를 선택하는 이유",
+      "이용 절차"
+    ],
+    "tech": [],
+    "hasForm": true,
+    "pageHeight": 23637,
+    "images": [
+      "main.webp",
+      "d1.webp",
+      "d2.webp",
+      "d3.webp",
+      "d4.webp"
+    ],
+    "mobile": "mobile.webp"
+  },
+  "senior-matching": {
+    "name": "senior-matching",
+    "skipped": "빌드 결과물/정적 index.html 없음"
+  },
+  "saju_en": {
+    "name": "saju_en",
+    "title": "Korean Saju Fortune Reading - Beyond Western Astrology | Authentic Korean Divination in English",
+    "description": "Discover the ancient wisdom of Korean Saju - more accurate than Western astrology. Professional Korean fortune reading service in English. Love, career, wealth, and life guidance with 98% accuracy.",
+    "headings": [
+      "Discover Your True Destiny With Korean Saju",
+      "Why Korean Saju is Superior to Western Astrology",
+      "Choose Your Perfect Reading",
+      "Real Success Stories",
+      "Limited Time Offer - Don't Miss Out!",
+      "Get Your Complete Saju Analysis",
+      "What is Korean Saju?",
+      "Free Saju Fortune Query",
+      "Latest Saju & Fortune Information",
+      "Contact Us"
+    ],
+    "tech": [],
+    "hasForm": true,
+    "pageHeight": 10725,
+    "images": [
+      "main.webp",
+      "d1.webp",
+      "d2.webp",
+      "d3.webp",
+      "d4.webp"
+    ],
+    "mobile": "mobile.webp"
+  },
+  "seoul-m": {
+    "name": "seoul-m",
+    "title": "서울모바일",
+    "description": "",
+    "headings": [
+      "간편인증서 있으신가요 ?"
+    ],
+    "tech": [],
+    "hasForm": false,
+    "pageHeight": 1052,
+    "images": [
+      "main.webp"
+    ],
+    "mobile": "mobile.webp"
+  },
+  "senior-en": {
+    "name": "senior-en",
+    "title": "조선시니어학당",
+    "description": "",
+    "headings": [
+      "메뉴",
+      "40~70대 시니어들영어랑 놀아요!",
+      "★나홀로 세계여행 떠나요 !!",
+      "사교/작업영어",
+      "40~70대 시니어들 영어랑 놀아요!",
+      "나홀로 세계여행 떠나자",
+      "알림"
+    ],
+    "tech": [],
+    "hasForm": false,
+    "pageHeight": 1081,
+    "images": [
+      "main.webp"
+    ],
+    "mobile": "mobile.webp"
+  },
+  "siren24-adv": {
+    "name": "siren24-adv",
+    "title": "법무법인 파트너 | 상품 홍보페이지",
+    "description": "",
+    "headings": [],
+    "tech": [],
+    "hasForm": false,
+    "pageHeight": 2498,
+    "images": [
+      "main.webp",
+      "d1.webp",
+      "d2.webp"
+    ],
+    "mobile": "mobile.webp"
+  },
+  "sbi-bank": {
+    "name": "sbi-bank",
+    "title": "SBI저축은행 | 아파트담보대출",
+    "description": "사업자/개인 모두를 위한 SBI 아파트담보대출",
+    "headings": [],
+    "tech": [],
+    "hasForm": false,
+    "pageHeight": 6305,
+    "images": [
+      "main.webp",
+      "d1.webp",
+      "d2.webp",
+      "d3.webp"
+    ],
+    "mobile": "mobile.webp"
+  },
+  "smile": {
+    "name": "smile",
+    "title": "스마일론 — 소액대출 전문 | 무직자·당일 소액대출 한도조회",
+    "description": "스마일론 — 무직자·주부·연체자 전문 소액대출. 서류 간소화, 신용조회 없는 한도조회, 당일 입금. 모바일대출·무직자대출 한도 최대 1억원, 연 20% 이내, 대구 소액대출 상담.",
+    "headings": [
+      "급할수록 빠르게 무직자 전문대출 \"스마일론\"",
+      "대출 상품 안내",
+      "\"스마일론\" 에서 빠르고 간편하게!",
+      "실시간 신청현황",
+      "간편상담신청",
+      "간편한 대출절차"
+    ],
+    "tech": [],
+    "hasForm": true,
+    "pageHeight": 4946,
+    "images": [
+      "main.webp",
+      "d1.webp",
+      "d2.webp"
+    ],
+    "mobile": "mobile.webp"
+  },
+  "smart-cash": {
+    "name": "smart-cash",
+    "title": "현금(현명한금융생활) 무료 재테크 세미나 | 지금 신청하기",
+    "description": "현명한금융생활·한스머니(hansmoney.co.kr) 공식 페이지. 현금(현명한금융생활) 무료 재테크 세미나 — 돈의 흐름, 소비습관, 포트폴리오, 은퇴 재테크까지. 지금 신청하고 현명한 금융생활을 시작하세요.",
+    "headings": [
+      "재테크… 아직도 혼자고민하고 계신가요?",
+      "혹시 이런 고민 있으신가요?",
+      "이제는 제대로 배워야 합니다",
+      "강사진 프로필",
+      "무료특강 초단기 비밀 수업",
+      "세미나 참석자들의 수익률표",
+      "재테크 전문가와 자유로운질의 응답",
+      "수강생 후기",
+      "자료집 제공",
+      "현명한 금융생활을 위한 선택이 아닌 필수 !"
+    ],
+    "tech": [],
+    "hasForm": false,
+    "pageHeight": 8030,
+    "images": [
+      "main.webp",
+      "d1.webp",
+      "d2.webp",
+      "d3.webp",
+      "d4.webp"
+    ],
+    "mobile": "mobile.webp"
+  },
+  "stock-bot": {
+    "name": "stock-bot",
+    "skipped": "빌드 결과물/정적 index.html 없음"
+  },
+  "sooTrading": {
+    "name": "sooTrading",
+    "title": "MODAC | Museum Of Design And Craft",
+    "description": "MODAC by SooTrading — Museum Of Design And Craft.",
+    "headings": [
+      "Wholesale & Design Inquiries"
+    ],
+    "tech": [],
+    "hasForm": false,
+    "pageHeight": 30977,
+    "images": [
+      "main.webp",
+      "d1.webp",
+      "d2.webp",
+      "d3.webp",
+      "d4.webp"
+    ],
+    "mobile": "mobile.webp"
+  },
+  "speed": {
+    "name": "speed",
+    "title": "스피드대부 — 비대면 소액대출 · 빠른 상담 | speed-300.com",
+    "description": "스피드대부는 비대면 소액대출 상담 전문입니다. 신용조회 부담 없이 간편 상담, 빠른 심사, 최대 300만원 당일 입금을 지향합니다. 부산 기반 대부중개업 등록 업체.",
+    "headings": [
+      "빠른 비대면 상담 신청",
+      "모바일에서도 빠른 진행 상황을 확인하세요",
+      "스피드대부 소액대출의 특징",
+      "자주 묻는 질문",
+      "접수 완료"
+    ],
+    "tech": [
+      "Tailwind CSS"
+    ],
+    "hasForm": true,
+    "pageHeight": 4965,
+    "images": [
+      "main.webp",
+      "d1.webp",
+      "d2.webp"
+    ],
+    "mobile": "mobile.webp"
+  },
+  "sos": {
+    "name": "sos",
+    "title": "배관SOS | 군포·안양·의왕 하수구·싱크대·변기 막힘 24시간 출동",
+    "description": "군포·안양·의왕 지역 하수구·싱크대·변기 막힘, 악취 제거. 30분 내 출동, 무료 방문 견적, 사후 보증. 지금 전화 상담하세요.",
+    "headings": [
+      "군포·안양·의왕 싱크대·변기 막힘? 바로 출동해 해결합니다!",
+      "숫자가 증명하는 배관SOS",
+      "왜 배관SOS인가요?",
+      "전문 서비스",
+      "서비스 진행 과정",
+      "가격 안내",
+      "고객님께서 증명해 주신서비스 만족도 99%",
+      "자주 묻는 질문",
+      "막힌 배관, 더 이상 고민하지 마세요"
+    ],
+    "tech": [],
+    "hasForm": false,
+    "pageHeight": 6927,
+    "images": [
+      "main.webp",
+      "d1.webp",
+      "d2.webp",
+      "d3.webp",
+      "d4.webp"
+    ],
+    "mobile": "mobile.webp"
+  },
+  "supermarket-insurance": {
+    "name": "supermarket-insurance",
+    "title": "보험슈퍼마켓",
+    "description": "보험슈퍼마켓에서 내 보험 상태를 쉽게 확인하고, 분석 리포트와 상담을 받아보세요.",
+    "headings": [
+      "내보험 확인 · 문의"
+    ],
+    "tech": [],
+    "hasForm": false,
+    "pageHeight": 12764,
+    "images": [
+      "main.webp",
+      "d1.webp",
+      "d2.webp",
+      "d3.webp",
+      "d4.webp"
+    ],
+    "mobile": "mobile.webp"
+  },
+  "thenaeun-logi": {
+    "name": "thenaeun-logi",
+    "title": "더나은물류",
+    "description": "",
+    "headings": [
+      "평균 수명 83세 시대, 은퇴는 빨라지고 삶은 길어졌습니다."
+    ],
+    "tech": [],
+    "hasForm": false,
+    "pageHeight": 3600,
+    "images": [
+      "main.webp",
+      "d1.webp",
+      "d2.webp"
+    ],
+    "mobile": "mobile.webp"
+  },
+  "thevine-new": {
+    "name": "thevine-new",
+    "title": "더바인 퀀텀 골드 클래스 | AI·ESG·신사업 강좌",
+    "description": "경영인을 위한 AI·ESG·신사업 실전 MBA형 경영 강좌",
+    "headings": [
+      "더바인 퀀텀 골드 클래스 - AI, ESG, 신사업 MBA형 실전 경영강좌"
+    ],
+    "tech": [],
+    "hasForm": false,
+    "pageHeight": 6714,
+    "images": [
+      "main.webp",
+      "d1.webp",
+      "d2.webp",
+      "d3.webp",
+      "d4.webp"
+    ],
+    "mobile": "mobile.webp"
+  },
+  "taejo": {
+    "name": "taejo",
+    "title": "태조식품 - 맛또로롱 제주 한식간장 훈연 간장 전문",
+    "description": "맛또로롱 제주 한식간장, 태조식품의 훈연 기술로 만든 프리미엄 한식간장. 지리산 조선간장과 제주 특허 훈연 기술로 완성된 깊고 진한 맛의 한식간장을 만나보세요.",
+    "headings": [
+      "한식간장",
+      "맛또로롱 제주 한식간장 제품",
+      "제주 한식간장 훈연 기술태조식품의 특허 제조시스템",
+      "맛또로롱 제주 한식간장의 탄생",
+      "태조식품의 특허 기술"
+    ],
+    "tech": [],
+    "hasForm": false,
+    "pageHeight": 7182,
+    "images": [
+      "main.webp",
+      "d1.webp",
+      "d2.webp",
+      "d3.webp",
+      "d4.webp"
+    ],
+    "mobile": "mobile.webp"
+  },
+  "tree": {
+    "name": "tree",
+    "title": "TREE - 인공지능 검색식 프로그램 | 트리컴퍼니",
+    "description": "놀라운 수익률의 인공지능 TREE 검색식 프로그램. 무료 체험 가능. 트리컴퍼니 AI 솔루션.",
+    "headings": [
+      "놀라운 수익률!"
+    ],
+    "tech": [
+      "GA/GTM",
+      "Meta Pixel"
+    ],
+    "hasForm": true,
+    "pageHeight": 4108,
+    "images": [
+      "main.webp",
+      "d2.webp"
+    ],
+    "mobile": "mobile.webp"
+  },
+  "tree2": {
+    "name": "tree2",
+    "title": "TREE - 인공지능 검색식 프로그램 | 트리컴퍼니",
+    "description": "놀라운 수익률의 인공지능 TREE 검색식 프로그램. 무료 체험 가능. 트리컴퍼니 AI 솔루션으로 투자 수익 극대화.",
+    "headings": [
+      "무료 상담 신청"
+    ],
+    "tech": [
+      "Meta Pixel"
+    ],
+    "hasForm": true,
+    "pageHeight": 6822,
+    "images": [
+      "main.webp",
+      "d1.webp",
+      "d2.webp",
+      "d3.webp",
+      "d4.webp"
+    ],
+    "mobile": "mobile.webp"
+  },
+  "ujiny-daily-note": {
+    "name": "ujiny-daily-note",
+    "title": "유지니의 일기장",
+    "description": "다이어트는 정말 쉽다. 솔직한 일상과 후기를 기록합니다 — 유지니의 일기장",
+    "headings": [
+      "유지니의 일기장"
+    ],
+    "tech": [],
+    "hasForm": false,
+    "pageHeight": 900,
+    "images": [
+      "main.webp"
+    ],
+    "mobile": "mobile.webp"
+  },
+  "ujiny-keyword-analysis": {
+    "name": "ujiny-keyword-analysis",
+    "title": "로그인 | 네이버 검색량",
+    "description": "",
+    "headings": [
+      "검색량 모니터"
+    ],
+    "tech": [],
+    "hasForm": true,
+    "pageHeight": 900,
+    "images": [
+      "main.webp"
+    ],
+    "mobile": "mobile.webp"
+  },
+  "ujiny-income-statement": {
+    "name": "ujiny-income-statement",
+    "title": "로그인 | 손익계산서",
+    "description": "",
+    "headings": [
+      "손익계산서"
+    ],
+    "tech": [],
+    "hasForm": true,
+    "pageHeight": 900,
+    "images": [
+      "main.webp"
+    ],
+    "mobile": "mobile.webp"
+  },
+  "unc": {
+    "name": "unc",
+    "title": "U&C 프리미엄 기업형 랜딩",
+    "description": "",
+    "headings": [
+      "광고는 많습니다.매출은 다릅니다.",
+      "도대체 어떤 곳이길래,이 정도 자신감일까요?",
+      "마케팅·광고 전에 반드시 해야 할 일이 있습니다.",
+      "최고의 솔루션을 제공합니다.",
+      "법률 서비스 제공",
+      "한달에 수백건의문의 전화를 받고 싶으신가요?",
+      "상담 신청"
+    ],
+    "tech": [],
+    "hasForm": true,
+    "pageHeight": 7093,
+    "images": [
+      "main.webp",
+      "d1.webp",
+      "d2.webp",
+      "d3.webp",
+      "d4.webp"
+    ],
+    "mobile": "mobile.webp"
+  },
+  "vision": {
+    "name": "vision",
+    "title": "비전산업 — 철거부터 원상복구까지 | 철거 견적 플랫폼",
+    "description": "비전산업은 투명한 견적과 전문 시공으로 신뢰할 수 있는 종합 철거 서비스를 제공합니다. 셀프견적으로 예상 철거 비용을 직접 확인하세요.",
+    "headings": [
+      "철거부터 원상복구까지 비전산업이 책임집니다",
+      "예상 철거 비용을직접 확인해보세요",
+      "철거의 모든 영역을전문적으로 처리합니다",
+      "숫자로 증명하는 시공 신뢰도",
+      "시공 전과 후,결과로 보여드립니다",
+      "5단계 투명 진행 프로세스",
+      "고객이 직접 남긴 후기",
+      "지금 무료 견적을신청하세요"
+    ],
+    "tech": [],
+    "hasForm": false,
+    "pageHeight": 8606,
+    "images": [
+      "main.webp",
+      "d1.webp",
+      "d2.webp",
+      "d3.webp",
+      "d4.webp"
+    ],
+    "mobile": "mobile.webp"
+  },
+  "usung-dearisuk": {
+    "name": "usung-dearisuk",
+    "title": "프리미엄 대리석 시공의 기준 - 유승대리석",
+    "description": "",
+    "headings": [
+      "프리미엄 대리석 시공의 기준",
+      "오랜 경험과 노하우로 완성하는 고품질 대리석 시공",
+      "시공 분야",
+      "시공 사례",
+      "시공 전후 차이를 직접 확인해보세요",
+      "왜 유승대리석인가요?",
+      "시공 과정",
+      "고객 후기",
+      "자주 묻는 질문",
+      "상담 문의"
+    ],
+    "tech": [
+      "Tailwind CSS"
+    ],
+    "hasForm": true,
+    "pageHeight": 9391,
+    "images": [
+      "main.webp",
+      "d1.webp",
+      "d2.webp",
+      "d3.webp",
+      "d4.webp"
+    ],
+    "mobile": "mobile.webp"
+  },
+  "well-class-report": {
+    "name": "well-class-report",
+    "title": "로그인 - WELLCLASS 성적표 관리",
+    "description": "",
+    "headings": [
+      "성적표 관리 시스템"
+    ],
+    "tech": [],
+    "hasForm": true,
+    "pageHeight": 900,
+    "images": [
+      "main.webp"
+    ],
+    "mobile": "mobile.webp"
+  },
+  "warranty-rent": {
+    "name": "warranty-rent",
+    "title": "무보증장기렌트 | 보증금·선수금 없이 쉽고 빠른 장기렌트 상담",
+    "description": "무보증장기렌트는 보증금, 선수금 부담 없이 신용이 낮아도 상담 가능한 장기렌트 서비스입니다. 국산차, 수입차, 저신용 장기렌트 견적을 빠르게 받아보세요.",
+    "headings": [
+      "복잡한 조건은 빼고,원하는 차를쉽고 빠르게!",
+      "왜? 무보증장기렌트가 좋을까요?",
+      "월간 특가",
+      "저신용도 OK! 무보증장기렌트 가능 차량"
+    ],
+    "tech": [],
+    "hasForm": true,
+    "pageHeight": 3372,
+    "images": [
+      "main.webp",
+      "d1.webp",
+      "d2.webp"
+    ],
+    "mobile": "mobile.webp"
+  },
+  "uwon-drive": {
+    "name": "uwon-drive",
+    "title": "유원드라이브 | 방문 운전연수",
+    "description": "유원드라이브 방문 운전연수. 초보·장롱면허 맞춤 코칭, 실전 동선 중심 연습, 빠른 일정 배정.",
+    "headings": [
+      "유원드라이브 — 운전이 처음인 분도, 도로에 익숙해지도록 끝까지 함께합니다",
+      "실시간 상담 현황",
+      "지금 필요한 연수 타입",
+      "실제 수강생 후기들 !",
+      "유원드라이브 운영 체계",
+      "유원드라이브 연수의 기준",
+      "연수 진행 방식",
+      "합리적이고 투명한 연수 비용",
+      "자주 묻는 질문",
+      "상담 신청"
+    ],
+    "tech": [
+      "Tailwind CSS",
+      "GA/GTM"
+    ],
+    "hasForm": true,
+    "pageHeight": 7882,
+    "images": [
+      "main.webp",
+      "d1.webp",
+      "d2.webp",
+      "d3.webp",
+      "d4.webp"
+    ],
+    "mobile": "mobile.webp"
+  },
+  "well-class": {
+    "name": "well-class",
+    "title": "웰클레스 영어교습소 | 양천구 신월동 초중고 영어 내신·수능",
+    "description": "서울 양천구 신월동 웰클레스 영어교습소. 등록 전 입학 테스트, 한 반 5~6명 소수정예 관리형 영어 수업으로 초등 문장분석부터 중고등 내신·수능까지 지도합니다. 상담 02-2606-7100",
+    "headings": [
+      "성적 상승 장학금 문의",
+      "영어를 잘하고 싶어하는 학생을 찾습니다.",
+      "어머님, 혹시 이런 고민 하고 계신가요?",
+      "학생을 가려받는 이유는,학생의 영어공부를책임지기 위해서 입니다.",
+      "테스트에 탈락하면등록할 수 없습니다",
+      "초등부터 수능까지, 한 번에 연결되는 커리큘럼",
+      "말로만 하지 않습니다. 영상으로 직접 보여드립니다",
+      "시대가 변했습니다.수업도 변해야 합니다.",
+      "소수정예라서, 자리가 많지 않습니다",
+      "아이의 영어는선생님과 관리가 90%입니다"
+    ],
+    "tech": [
+      "Naver Analytics"
+    ],
+    "hasForm": true,
+    "pageHeight": 13143,
+    "images": [
+      "main.webp",
+      "d1.webp",
+      "d2.webp",
+      "d3.webp",
+      "d4.webp"
+    ],
+    "mobile": "mobile.webp"
+  },
+  "woori-care": {
+    "name": "woori-care",
+    "title": "우리집배관케어 | 변기교체·하수구 악취·하수구 막힘 전문",
+    "description": "우리집배관케어는 변기교체, 하수구 악취·냄새, 하수구 막힘, 배수구 냄새, 환풍기 교체 전문 시공 업체입니다. 서울·경기·인천 지역 당일 상담, 정찰제 견적, A/S 안내.",
+    "headings": [
+      "변기교체 · 하수구 악취 전문 시공",
+      "이런 경우, 바로 문의하세요",
+      "실제 작업사례",
+      "서비스 안내",
+      "비용 안내",
+      "작업 진행 절차",
+      "고객 후기",
+      "전화 한 통이면 끝"
+    ],
+    "tech": [],
+    "hasForm": true,
+    "pageHeight": 6269,
+    "images": [
+      "main.webp",
+      "d1.webp",
+      "d2.webp",
+      "d3.webp"
+    ],
+    "mobile": "mobile.webp"
+  },
+  "write-paradigm": {
+    "name": "write-paradigm",
+    "title": "The Write Paradigm",
+    "description": "",
+    "headings": [
+      "The Write Paradigm",
+      "TOEFL 고득점부터유학 입시 Essays까지",
+      "The Write Paradigm Pathway",
+      "Our Programs",
+      "수강생을 선별할 수밖에 없는 이유 Why Enrollment Is Limited",
+      "Mandy Kim 대표",
+      "한반에 6명이 아닌, 매달 6명만 선발합니다."
+    ],
+    "tech": [
+      "Tailwind CSS"
+    ],
+    "hasForm": false,
+    "pageHeight": 3346,
+    "images": [
+      "main.webp",
+      "d1.webp",
+      "d2.webp"
+    ],
+    "mobile": "mobile.webp"
+  },
+  "wha-yunsul": {
+    "name": "wha-yunsul",
+    "title": "WHA'YUNSUL | Performance-Driven K-Beauty",
+    "description": "WHA'YUNSUL — manufactured in Korea, distributed worldwide. High-concentration PDRN care with R&D, manufacturing, and global export under one brand.",
+    "headings": [
+      "Skincare I want to use for a lifetime.",
+      "Key ingredients.Functional design.Proven results.",
+      "Core lines builtfor real skin concerns",
+      "Multiple waysto grow together",
+      "From formula toglobal shelf",
+      "Made to perform.Built to export.",
+      "Built for ambitiousbeauty partners",
+      "Wholesale & CollaborationInquiries"
+    ],
+    "tech": [],
+    "hasForm": false,
+    "pageHeight": 11668,
+    "images": [
+      "main.webp",
+      "d1.webp",
+      "d2.webp",
+      "d3.webp",
+      "d4.webp"
+    ],
+    "mobile": "mobile.webp"
+  }
+}
